@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/cleme/Documents/GitHub/skra-distribution/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "Dragonista (Minecraft 1.7.10)",
+    "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
+    "icon": "https://drive.google.com/uc?export=download&id=17RduWFHwdVQr7W6mhB-1TsA6d0R2x3zJ",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "Dragonista",
+      "largeImageText": "Dragonista",
+      "largeImageKey": "nether_star"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "10.13.4.1614"
+  },
+  "untrackedFiles": []
+}
