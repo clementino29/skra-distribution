@@ -1,24 +1,24 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/master/rss.xml",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1215386430130356334",
+    "smallImageText": "Sakura Launcher",
+    "smallImageKey": "sakura_launcher"
   },
   "servers": [
     {
       "id": "Dragonista-1.7.10",
       "name": "Dragonista (Minecraft 1.7.10)",
       "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
-      "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Dragonista.png",
+      "icon": "https://www.dropbox.com/scl/fi/mclykb2xxd3ngaapru54m/Dragonista.png?rlkey=wvvi8uodh1sdm01nrwozs926r&st=8k8u3716&dl=1",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.7.10",
       "discord": {
         "shortId": "Dragonista",
         "largeImageText": "Dragonista",
-        "largeImageKey": "nether_star"
+        "largeImageKey": "dragonista"
       },
       "mainServer": false,
       "autoconnect": false,
