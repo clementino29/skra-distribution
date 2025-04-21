@@ -1,0 +1,2837 @@
+{
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Dragonista-1.7.10",
+      "name": "Dragonista (Minecraft 1.7.10)",
+      "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
+      "icon": "https://drive.google.com/uc?export=download&id=17RduWFHwdVQr7W6mhB-1TsA6d0R2x3zJ",
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.7.10",
+      "discord": {
+        "shortId": "Dragonista",
+        "largeImageText": "Dragonista",
+        "largeImageKey": "nether_star"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10:universal",
+          "name": "Minecraft Forge",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 3018833,
+            "MD5": "add0fba161c4652a96efb4264ec2d9ec",
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.7.10-10.13.4.1614-1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
+          },
+          "subModules": [
+            {
+              "id": "net.minecraft:launchwrapper:1.12@jar",
+              "name": "Minecraft Forge (launchwrapper)",
+              "type": "Library",
+              "artifact": {
+                "size": 32999,
+                "MD5": "934b2d91c7c5be4a49577c9e6b40e8da",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-all:5.0.3@jar",
+              "name": "Minecraft Forge (asm-all)",
+              "type": "Library",
+              "artifact": {
+                "size": 241639,
+                "MD5": "c5cc4613bbdfba3ccf5f0ab85390d0b8",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-all/5.0.3/asm-all-5.0.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe.akka:akka-actor_2.11:2.3.3@jar",
+              "name": "Minecraft Forge (akka-actor_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 2514991,
+                "MD5": "541440ca0819ebada47d6d1a8b3ee9e1",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/typesafe/akka/akka-actor_2.11/2.3.3/akka-actor_2.11-2.3.3.jar"
+              }
+            },
+            {
+              "id": "com.typesafe:config:1.2.1@jar",
+              "name": "Minecraft Forge (config)",
+              "type": "Library",
+              "artifact": {
+                "size": 219554,
+                "MD5": "3aaf3c6e76a68e732c17d4a7e9877d81",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/typesafe/config/1.2.1/config-1.2.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-actors-migration_2.11:1.1.0@jar",
+              "name": "Minecraft Forge (scala-actors-migration_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 58018,
+                "MD5": "f5e79398daa1806f8b17311a3c782723",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-actors-migration_2.11/1.1.0/scala-actors-migration_2.11-1.1.0.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-compiler:2.11.1@jar",
+              "name": "Minecraft Forge (scala-compiler)",
+              "type": "Library",
+              "artifact": {
+                "size": 13449765,
+                "MD5": "06030143bf86ca896fb6ccfd679b5760",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-compiler/2.11.1/scala-compiler-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-library_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-library_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 25365,
+                "MD5": "004d7007abbcee858d3ca2c3ccbcbaab",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/plugins/scala-continuations-library_2.11/1.0.2/scala-continuations-library_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang.plugins:scala-continuations-plugin_2.11.1:1.0.2@jar",
+              "name": "Minecraft Forge (scala-continuations-plugin_2.11.1)",
+              "type": "Library",
+              "artifact": {
+                "size": 206575,
+                "MD5": "359c4a6743a082c689039482eed78670",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/plugins/scala-continuations-plugin_2.11.1/1.0.2/scala-continuations-plugin_2.11.1-1.0.2.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-library:2.11.1@jar",
+              "name": "Minecraft Forge (scala-library)",
+              "type": "Library",
+              "artifact": {
+                "size": 5538130,
+                "MD5": "1d88f665219e6006c5dd82d71c525c0f",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-library/2.11.1/scala-library-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-parser-combinators_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-parser-combinators_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 419701,
+                "MD5": "4e694499c965af4a02599c99d4f0b196",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-reflect:2.11.1@jar",
+              "name": "Minecraft Forge (scala-reflect)",
+              "type": "Library",
+              "artifact": {
+                "size": 4372892,
+                "MD5": "7878fac044e4e4b576bb35a77ccc34fc",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-reflect/2.11.1/scala-reflect-2.11.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-swing_2.11:1.0.1@jar",
+              "name": "Minecraft Forge (scala-swing_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 726500,
+                "MD5": "1009d69e4948045383f2a7a334348af5",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-swing_2.11/1.0.1/scala-swing_2.11-1.0.1.jar"
+              }
+            },
+            {
+              "id": "org.scala-lang:scala-xml_2.11:1.0.2@jar",
+              "name": "Minecraft Forge (scala-xml_2.11)",
+              "type": "Library",
+              "artifact": {
+                "size": 648679,
+                "MD5": "c2d7e66495afe14545c31b21e99879ef",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/scala-lang/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.jar"
+              }
+            },
+            {
+              "id": "lzma:lzma:0.0.1@jar",
+              "name": "Minecraft Forge (lzma)",
+              "type": "Library",
+              "artifact": {
+                "size": 5762,
+                "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/lzma/lzma/0.0.1/lzma-0.0.1.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:4.5@jar",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 61311,
+                "MD5": "1372bd4823bb1ef61e7db6724f601150",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/sf/jopt-simple/jopt-simple/4.5/jopt-simple-4.5.jar"
+              }
+            },
+            {
+              "id": "com.google.guava:guava:17.0@jar",
+              "name": "Minecraft Forge (guava)",
+              "type": "Library",
+              "artifact": {
+                "size": 2243036,
+                "MD5": "89fef81c2adfa9b50a64ed5cd5d8c155",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/guava/guava/17.0/guava-17.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.commons:commons-lang3:3.3.2@jar",
+              "name": "Minecraft Forge (commons-lang3)",
+              "type": "Library",
+              "artifact": {
+                "size": 412739,
+                "MD5": "3128bf75a2549ebe38663401191bacab",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.forgemod:[1.7.10] securitycraft v1.7.4.1:0.0.0@jar",
+          "name": "[1.7.10] SecurityCraft v1.7.4.1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 866197,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/[1.7.10]%20SecurityCraft%20v1.7.4.1.jar",
+            "MD5": "ebb7e3604dc4b14a618e811ff275b4eb"
+          }
+        },
+        {
+          "id": "generated.forgemod:archimedesshipsplus:1.7.10-1.8@jar",
+          "name": "Archimedesshipsplus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4436147,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/archimedesshipsplus-1.7.10-1.8.jar",
+            "MD5": "e709320137ed2cec13b95a64d5466516"
+          }
+        },
+        {
+          "id": "generated.forgemod:CarpentersBlocks:3.3.8.1@jar",
+          "name": "Carpenter's Blocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 513792,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Carpenter's%20Blocks%20v3.3.8.1%20-%20MC%201.7.10.jar",
+            "MD5": "fb8fbc9747b943b34e6df5fe9a2a8841"
+          }
+        },
+        {
+          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.4.29-universal@jar",
+          "name": "CodeChickenCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157678,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.4.29-universal.jar",
+            "MD5": "23978d3c16f19d0d2808c4b451d78f87"
+          }
+        },
+        {
+          "id": "generated.forgemod:colourfulportalsmod:1.4.2@jar",
+          "name": "Colourful Portals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 238069,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/ColourfulPortals-1.4.2_for_1.7.X.jar",
+            "MD5": "1e8b5eb72ac5d557c9e075821e814415"
+          }
+        },
+        {
+          "id": "generated.forgemod:combat:Evolved-Halo-Mod-1.7.10@jar",
+          "name": "Combat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1648761,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Combat-Evolved-Halo-Mod-1.7.10.jar",
+            "MD5": "84896c5fc10408650a1f9228b1661ddc"
+          }
+        },
+        {
+          "id": "generated.forgemod:currency:1.7.10-1.0@jar",
+          "name": "Currency",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 135375,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Currency-1.7.10-1.0.jar",
+            "MD5": "a2c6de30586742a2ec5d1d82df3fba81"
+          }
+        },
+        {
+          "id": "generated.forgemod:customnpcs:1.7.10@jar",
+          "name": "CustomNpcs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8980803,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Custom-NPCs-Mod-1.7.10.jar",
+            "MD5": "29a930b4c5ad15b47b90942fe043c708"
+          }
+        },
+        {
+          "id": "generated.forgemod:DynamicTransport:0.1.2.0@jar",
+          "name": "Dynamic Transport",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 235576,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/DynamicTransport-0.1.2.0.jar",
+            "MD5": "4eed26b8951e251845c840b2b2c8d708"
+          }
+        },
+        {
+          "id": "generated.forgemod:flansmod:4.10.0@jar",
+          "name": "Flan's Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1392979,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Flans%20Mod-1.7.10-4.10.0.jar",
+            "MD5": "c528c4d73fad891843f8ed86e19c1482"
+          }
+        },
+        {
+          "id": "generated.forgemod:forgottennature_1.7.11:0.0.0@jar",
+          "name": "ForgottenNature_1.7.11",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2110431,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/ForgottenNature_1.7.11.jar",
+            "MD5": "86b36aba73dbb49753610a0addcc2e4e"
+          }
+        },
+        {
+          "id": "net.malisis.core.asm:malisiscore:1.7.10-0.14.2@jar",
+          "name": "MalisisCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 648056,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/malisiscore-1.7.10-0.14.2.jar",
+            "MD5": "87fca3436123f798996b678816d7eb5f"
+          }
+        },
+        {
+          "id": "generated.forgemod:malisisdoors:1.7.10-1.13.0@jar",
+          "name": "Malisis' Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1643365,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/malisisdoors-1.7.10-1.13.1.jar",
+            "MD5": "8fcfcf863177cc6771ff54aba2b60e49"
+          }
+        },
+        {
+          "id": "generated.forgemod:MovingWorld:1.7.10-1.8@jar",
+          "name": "Moving World",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 153223,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/movingworld-1.7.10-1.8.jar",
+            "MD5": "f2de20736791a3b3348c27937e75d52f"
+          }
+        },
+        {
+          "id": "generated.forgemod:cfm:�83.4.8@jar",
+          "name": "�9MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1729803,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/MrCrayfishFurnitureModv3.4.8(1.7.10).jar",
+            "MD5": "500838ab284bb4c5e1ec0efb3ebbb44d"
+          }
+        },
+        {
+          "id": "codechicken.nei:notenoughitems:1.7.10-1.0.3.74-universal@jar",
+          "name": "NotEnoughItems",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 507333,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/NotEnoughItems-1.7.10-1.0.3.74-universal.jar",
+            "MD5": "7c2c35414e28e0dc01eea315368bc1ec"
+          }
+        },
+        {
+          "id": "openblocks:OpenBlocks:1.5.1@jar",
+          "name": "OpenBlocks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2705342,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/OpenBlocks-1.7.10-1.5.1.jar",
+            "MD5": "87633834e62298706da02daafd8fcf22"
+          }
+        },
+        {
+          "id": "openmods.core:OpenMods:0.9.1@jar",
+          "name": "OpenMods",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1154687,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/OpenModsLib-1.7.10-0.9.1.jar",
+            "MD5": "80ab054e554baef8edec979f7b900301"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.7.10_HD_U_D6@jar",
+          "name": "OptiFine 1.7.10_HD_U_D6",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1222159,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/OptiFine_1.7.10_HD_U_D6.jar",
+            "MD5": "a287d0b19de2de30892efc3b52468032"
+          }
+        },
+        {
+          "id": "generated.forgemod:orespawn:1.7.10-20.2@jar",
+          "name": "The OreSpawn Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17541969,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/orespawn-1.7.10-20.3.zip",
+            "MD5": "13ea53604b1d65d4896be301df7dd5f6"
+          }
+        },
+        {
+          "id": "generated.forgemod:pda:1.7.10@jar",
+          "name": "Plus d'aliments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 405594,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Plus%20daliments-1.7.10%20v7.jar",
+            "MD5": "8b76ff79542387d7ff344d5e1a36bea2"
+          }
+        },
+        {
+          "id": "cuchaz.ships.asm:cuchaz.ships.core:v1.7.10-1.0.4@jar",
+          "name": "ShipsMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 573319,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/shipsMod-v1.7.10-1.0.4.jar",
+            "MD5": "c3da7c8aa108e480cccbfa481a1eee24"
+          }
+        },
+        {
+          "id": "generated.forgemod:SlimevoidLib:2.0.4.7@jar",
+          "name": "Slimevoid Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 92931,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/SlimevoidLibrary-2.0.4.7.jar",
+            "MD5": "dd4b8a738f7516d76f3c66b80bda9675"
+          }
+        },
+        {
+          "id": "generated.forgemod:TwilightForest:2.2.3@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3240230,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/Twilight-Forest-Mod-1.7.2.jar",
+            "MD5": "424d914dce41446b838d037a387d979f"
+          }
+        },
+        {
+          "id": "generated.forgemod:WorldEdit:6.1.1;no_git_id@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1461467,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/worldedit-forge-mc1.7.10-6.1.1-dist.jar",
+            "MD5": "2009d49df40267da5bba19e09e29463a"
+          }
+        },
+        {
+          "id": "Akaku Vehicle Package 3.1 for 1.7.10.zip",
+          "name": "Akaku Vehicle Package 3.1 for 1.7.10.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1380991,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/Akaku%20Vehicle%20Package%203.1%20for%201.7.10.zip",
+            "MD5": "82532ed5cd427356b34ddcd3e4853107",
+            "path": "Flan/Akaku Vehicle Package 3.1 for 1.7.10.zip"
+          }
+        },
+        {
+          "id": "British Military Pack V1.131.jar",
+          "name": "British Military Pack V1.131.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5080325,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/British%20Military%20Pack%20V1.131.jar",
+            "MD5": "84cbc95a9ecc018ab86235c28fcef94c",
+            "path": "Flan/British Military Pack V1.131.jar"
+          }
+        },
+        {
+          "id": "FC Pack V8.02 1.7.10-1.8 FM5.1.jar",
+          "name": "FC Pack V8.02 1.7.10-1.8 FM5.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5333748,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/FC%20Pack%20V8.02%201.7.10-1.8%20FM5.1.jar",
+            "MD5": "942c0a07e5b08ed1214f992b626b298d",
+            "path": "Flan/FC Pack V8.02 1.7.10-1.8 FM5.1.jar"
+          }
+        },
+        {
+          "id": "Modern Warfare-Content Pack-1.7.10-4.10.0.jar",
+          "name": "Modern Warfare-Content Pack-1.7.10-4.10.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3598366,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/Modern%20Warfare-Content%20Pack-1.7.10-4.10.0.jar",
+            "MD5": "076161897891f4a75bca70c898a52c4f",
+            "path": "Flan/Modern Warfare-Content Pack-1.7.10-4.10.0.jar"
+          }
+        },
+        {
+          "id": "Simple Parts-Content Pack-1.7.10-4.10.0.jar",
+          "name": "Simple Parts-Content Pack-1.7.10-4.10.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 153213,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/Simple%20Parts-Content%20Pack-1.7.10-4.10.0.jar",
+            "MD5": "a2a02faaa3ff6673abab856a27d3a6a7",
+            "path": "Flan/Simple Parts-Content Pack-1.7.10-4.10.0.jar"
+          }
+        },
+        {
+          "id": "Titan-Content Pack-1.7.10-4.10.0.jar",
+          "name": "Titan-Content Pack-1.7.10-4.10.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 78345,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/Titan-Content%20Pack-1.7.10-4.10.0.jar",
+            "MD5": "693b079c6c51860b76640baeac836e0e",
+            "path": "Flan/Titan-Content Pack-1.7.10-4.10.0.jar"
+          }
+        },
+        {
+          "id": "Unzip me 3C.zip",
+          "name": "Unzip me 3C.zip",
+          "type": "File",
+          "artifact": {
+            "size": 8153897,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/Unzip%20me%203C.zip",
+            "MD5": "99113e8bd220260dca31d120ced13e7a",
+            "path": "Flan/Unzip me 3C.zip"
+          }
+        },
+        {
+          "id": "WW2-Content Pack-1.7.10-4.10.0.jar",
+          "name": "WW2-Content Pack-1.7.10-4.10.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 2995322,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/files/Flan/WW2-Content%20Pack-1.7.10-4.10.0.jar",
+            "MD5": "4531870de76a6f835632148a89a58fb4",
+            "path": "Flan/WW2-Content Pack-1.7.10-4.10.0.jar"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Epsilonia-1.19.4",
+      "name": "Epsilonia (Minecraft 1.19.4)",
+      "description": "Epsilonia Running Minecraft 1.19.4 (Fabric v0.16.14)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.19.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.19.4-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "5372c9f53bbfeb1acd3f5958a5ba6032",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/1.19.4-fabric-0.16.14/1.19.4-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.19.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 561002,
+                "MD5": "3152114bacff68951f30cfa891fdba24",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/intermediary/1.19.4/intermediary-1.19.4.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "me.jellysquid.mods:lithium:0.11.1@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 639391,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Epsilonia-1.19.4/fabricmods/required/lithium-fabric-mc1.19.4-0.11.1.jar",
+            "MD5": "e51a0f1acac6ab6c1355e031148168e5"
+          }
+        },
+        {
+          "id": "generated.fabricmod:phosphor:0.8.1@jar",
+          "name": "Phosphor",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 88018,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Epsilonia-1.19.4/fabricmods/required/phosphor-fabric-mc1.19.x-0.8.1.jar",
+            "MD5": "43c845e5a93e228073a62ffcec82c18f"
+          }
+        },
+        {
+          "id": "com.replaymod.core:replaymod:1.19.4-2.6.14@jar",
+          "name": "Replay Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 13247461,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Epsilonia-1.19.4/fabricmods/optionaloff/replaymod-1.19.4-2.6.14.jar",
+            "MD5": "be041a42dcc12488d64874f5145f8b59"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.4.10+build.24@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 711302,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Epsilonia-1.19.4/fabricmods/required/sodium-fabric-mc1.19.4-0.4.10+build.24.jar",
+            "MD5": "088dfb7323e7a042fb6edf1f0e7802d9"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Oxygen-1.18.2",
+      "name": "Oxygen (Minecraft 1.18.2)",
+      "description": "Oxygen Running Minecraft 1.18.2 (Forge v40.3.10)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.18.2",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.18.2-40.3.10",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7383,
+            "MD5": "e3868885063ec670984eb4a356e3cde5",
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/lowcodelanguage/1.18.2-40.3.10/lowcodelanguage-1.18.2-40.3.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.18.2-40.3.10",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16562,
+                "MD5": "566f2459b37cf1661e330143fef63195",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/1.18.2-forge-40.3.10/1.18.2-forge-40.3.10.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.18.2-40.3.10",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 112297,
+                "MD5": "1fcc4fb5fac74687ffe9062ff078bbdd",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlcore/1.18.2-40.3.10/fmlcore-1.18.2-40.3.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.18.2-40.3.10",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16293,
+                "MD5": "52f5db5b56f1fb0986b319a94703a102",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/javafmllanguage/1.18.2-40.3.10/javafmllanguage-1.18.2-40.3.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.18.2-40.3.10",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4988,
+                "MD5": "125eb1ead1e033269de72f6b6998c452",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/mclanguage/1.18.2-40.3.10/mclanguage-1.18.2-40.3.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.3.10:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2619521,
+                "MD5": "f88b178611e5bf67708ee6d38b9b22a7",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.18.2-40.3.10/forge-1.18.2-40.3.10-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.18.2-40.3.10:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4399609,
+                "MD5": "b27a02e355497775ecdcd3ce28a9ed6f",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.18.2-40.3.10/forge-1.18.2-40.3.10-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 13796791,
+                "MD5": "49d0ce9681f0ffd3c5a177f6ad45c80b",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10909711,
+                "MD5": "62184203a1e66c6c72b415b7d6e64c0d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.18.2-20220404.173914:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 9349972,
+                "MD5": "5de62b239289ed8e596b386766b87b41",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.18.2-20220404.173914/client-1.18.2-20220404.173914-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:1.0.8",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 85028,
+                "MD5": "102e2b8d94eec8aca0da835d2d3a359e",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/securejarhandler/1.0.8/securejarhandler-1.0.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:5.0.3",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42838,
+                "MD5": "c8b735cdfe9975a569626d72ad40377f",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/eventbus/5.0.3/eventbus-5.0.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:4.0.15-4.x",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 22072,
+                "MD5": "8509a972b27c9f037d55c61e16fc051f",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forgespi/4.0.15-4.x/forgespi-4.0.15-4.x.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.5",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "a1cf1bb00ed73d734fec9368ab06f894",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/coremods/5.2.5/coremods-5.2.5.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:9.1.3",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 129301,
+                "MD5": "dca70519c3e53ac018d6f50c6f90cd38",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/modlauncher/9.1.3/modlauncher-9.1.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.java.dev.jna:jna:5.12.1",
+              "name": "Minecraft Forge (jna)",
+              "type": "Library",
+              "artifact": {
+                "size": 1866196,
+                "MD5": "3bab13d7f5ca715013fcac64ceb4108d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar"
+              }
+            },
+            {
+              "id": "net.java.dev.jna:jna-platform:5.12.1",
+              "name": "Minecraft Forge (jna-platform)",
+              "type": "Library",
+              "artifact": {
+                "size": 1356627,
+                "MD5": "061ec627ed090f59104e33cea38c97cd",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/java/dev/jna/jna-platform/5.12.1/jna-platform-5.12.1.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.0.0",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 7828,
+                "MD5": "1632575563bb6ead2ae3a087945f18be",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/1.0.0/bootstraplauncher-1.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.18.2-40.3.10",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 259617,
+                "MD5": "35931f212734c1986ef4cdd2582ab4a2",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlloader/1.18.2-40.3.10/fmlloader-1.18.2-40.3.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "com.endertech.minecraft.mods:adhooks:8.0.0.0@jar",
+          "name": "Advanced Hook Launchers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 112028,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/AdHooks-1.18.2-8.0.0.0-build.0342.jar",
+            "MD5": "c0cd4ec59b89eb97eba2974fabb9be70"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:alexsmobs:1.18.6@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22436427,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/alexsmobs-1.18.6.jar",
+            "MD5": "055b233750ba11d528e4c23a1ad6d179"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.18.2@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 46285,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/appleskin-forge-mc1.18.2-2.5.1.jar",
+            "MD5": "ab3e3ae18dae2302fa4573cdcebd2cf4"
+          }
+        },
+        {
+          "id": "com.teammetallurgy:aquaculture:1.18.2-2.3.12@jar",
+          "name": "Aquaculture 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 574998,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Aquaculture-1.18.2-2.3.12.jar",
+            "MD5": "0e56b4ec0a3acee4996f3a3f10a7a320"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:4.11.93@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 549226,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/architectury-4.11.93-forge.jar",
+            "MD5": "f3e897bea30252c717004e1a3439cf6b"
+          }
+        },
+        {
+          "id": "com.hollingsworth.arsnouveau:ars_nouveau:2.9.0@jar",
+          "name": "Ars Nouveau",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6832996,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ars_nouveau-1.18.2-2.9.0.jar",
+            "MD5": "2771f442bf9ba7cf34af52882d366d53"
+          }
+        },
+        {
+          "id": "de.mennomax:astikorcarts:1.1.2@jar",
+          "name": "AstikorCarts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 261090,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/astikorcarts-1.18.2-1.1.2.jar",
+            "MD5": "3cdbc29b2d810d06daaaec7a6eb3f76a"
+          }
+        },
+        {
+          "id": "vazkii.arl:autoreglib:1.7-53@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 42733,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/AutoRegLib-1.7-53.jar",
+            "MD5": "b3fa32322a19c3d5f480efbff506dade"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:3.2.6@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 622515,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/balm-3.2.6.jar",
+            "MD5": "2c88b15b950317917fe64980267d579a"
+          }
+        },
+        {
+          "id": "dev.itsmeow:betteranimalsplus:1.18.2-11.0.10@jar",
+          "name": "Better Animals Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2164141,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/betteranimalsplus-1.18.2-11.0.10-forge.jar",
+            "MD5": "1ac2983f2e1cdc4552bbcffb29506ecc"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:1.18.2-16.0.0.109@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21244292,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/BiomesOPlenty-1.18.2-16.0.0.109-universal.jar",
+            "MD5": "c871cdbefa4dedfbc0d0af75352cddb2"
+          }
+        },
+        {
+          "id": "com.legacy:blue_skies:1.3.12@jar",
+          "name": "Blue Skies",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82794983,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/blue_skies-1.18.2-1.3.12.jar",
+            "MD5": "2374b1d7c0008ac9ac697c4b41290a65"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:1.18.2-435@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11422451,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Botania-1.18.2-435.jar",
+            "MD5": "34ca65e3dbe64e7d344a887f860be112"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:1.17.1.12@jar",
+          "name": "Carry On",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 319432,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/carryon-1.18.2-1.17.1.12.jar",
+            "MD5": "67df6f487cc70a71d4067721dc1d4ea0"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:1.11.3@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 503137,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/citadel-1.11.3-1.18.2.jar",
+            "MD5": "fffef0755c3ac225d55b91357f2d9823"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:9.2.3@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1410834,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/cofh_core-1.18.2-9.2.3.47.jar",
+            "MD5": "ea5e75a5aecfdbbfb266b2197d03a7cf"
+          }
+        },
+        {
+          "id": "com.corosus.coroutil.loader:coroutil:1.18.2-1.3.6@jar",
+          "name": "CoroUtil",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 63854,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/coroutil-forge-1.18.2-1.3.6.jar",
+            "MD5": "1e55afc68fae8b2b4aa7f77b5b6ff7a7"
+          }
+        },
+        {
+          "id": "com.simibubi:create:0.5.1.f@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14906855,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/create-1.18.2-0.5.1.f.jar",
+            "MD5": "a9fc645f2a4720f831794bd160b9bc0b"
+          }
+        },
+        {
+          "id": "rbasamoyai.createbigcannons:createbigcannons:0.5.3.b-nightly-55e3ae8@jar",
+          "name": "Create Big Cannons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2321064,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/createbigcannons-forge-1.18.2-0.5.3.b.jar",
+            "MD5": "9e887c8238db45204beb1a7daec1e3cc"
+          }
+        },
+        {
+          "id": "net.cristellib:cristellib:1.0.0@jar",
+          "name": "Cristel Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 454440,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/cristellib-forge-1.0.0.jar",
+            "MD5": "f80573f66317110f6defb858acb4d50c"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.18.2-5.0.9.2@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 277670,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/curios-forge-1.18.2-5.0.9.2.jar",
+            "MD5": "ff272c51d7d3a5cf4a109bde2cf3f8ee"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.0.1-a@jar",
+          "name": "Distant Horizons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16177766,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/optionaloff/DistantHorizons-2.0.1-a-1.18.2.jar",
+            "MD5": "794a41a54c7e73378c078f5cebd8307f"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "doggytalents:doggytalents:2.5.11@jar",
+          "name": "Doggy Talents 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1082400,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/DoggyTalents-1.18.2-2.5.11.jar",
+            "MD5": "8264e89c3e2d0393356190146e19d055"
+          }
+        },
+        {
+          "id": "xiroc.dungeoncrawl:dungeoncrawl:2.3.14@jar",
+          "name": "Dungeon Crawl",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 759567,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/DungeonCrawl-1.18.2-2.3.14.jar",
+            "MD5": "2bd7a9f50c99a156d4ba84b1d581d55f"
+          }
+        },
+        {
+          "id": "com.legacy:dungeons_plus:1.2.0@jar",
+          "name": "Dungeons Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1169199,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/dungeons_plus-1.18.2-1.2.0.jar",
+            "MD5": "cc35c5850af6f912edd5ab6f0a876c44"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.52-1.18.2@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5519764,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/DungeonsArise-1.18.2-2.1.52-release.jar",
+            "MD5": "db30ffc9a88babfe8e7aadf47414ecd9"
+          }
+        },
+        {
+          "id": "com.ferreusveritas:dynamictrees:1.18.2-1.0.4@jar",
+          "name": "Dynamic Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3336120,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/DynamicTrees-1.18.2-1.0.4.jar",
+            "MD5": "b09ebfc1aadb9b358150f1e84861fe9a"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.18+mc1.18.2@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1558603,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/embeddium-0.3.18+mc1.18.2.jar",
+            "MD5": "dde002cb54d8eeb0d33f8be54983c466"
+          }
+        },
+        {
+          "id": "me.srrapero720:embeddiumplus:1.2.14@jar",
+          "name": "Embeddium++",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2569044,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/embeddiumplus-1.18.2-v1.2.14.jar",
+            "MD5": "c1ec832358190b0f171850952e65fc29"
+          }
+        },
+        {
+          "id": "net.pavocado:exoticbirds:1.7.0@jar",
+          "name": "Exotic Birds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2087555,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/exoticbirds-1.18.2-1.7.0.jar",
+            "MD5": "791068da49139a48a789a9f0d5d259f5"
+          }
+        },
+        {
+          "id": "it.zerono.mods.extremereactors:bigreactors:1.18.2-2.0.71@jar",
+          "name": "Extreme Reactors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2328319,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ExtremeReactors2-1.18.2-2.0.71.jar",
+            "MD5": "91ecd85c3a8b04c922cadec3b723dfb5"
+          }
+        },
+        {
+          "id": "com.farsight:farsight_view:1.18.2-1.9@jar",
+          "name": "Farsight mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10707,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/optionaloff/farsight-1.18.2-1.9.jar",
+            "MD5": "bce870d88db478b482260283af2efc06"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:4.2.2@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 116626,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ferritecore-4.2.2-forge.jar",
+            "MD5": "ea8c0bfc697a73b0d1886e43a1a5a282"
+          }
+        },
+        {
+          "id": "com.endertech.minecraft:forgeendertech:9.0.8.0@jar",
+          "name": "ForgeEndertech",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 527624,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ForgeEndertech-1.18.2-9.0.8.0-build.1586.jar",
+            "MD5": "4f5d8d2900ef85a07efa5d9ba7f6dcc9"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.0.57@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2927832,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/geckolib-forge-1.18-3.0.57.jar",
+            "MD5": "d491c30c6d9bd3f767bd545cbaf6502e"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:goblintraders:1.8.0@jar",
+          "name": "Goblin Traders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 439283,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/goblintraders-1.8.0-1.18.2.jar",
+            "MD5": "8c4fed34208f865641efae6aabb202cc"
+          }
+        },
+        {
+          "id": "de.maxhenkel:gravestone:1.18.2-1.0.2@jar",
+          "name": "Gravestone Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 249205,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/gravestone-1.18.2-1.0.2.jar",
+            "MD5": "4492025f935890910cd2e3ced382c5b9"
+          }
+        },
+        {
+          "id": "tallestegg.guardvillagers:guardvillagers:1.4.4@jar",
+          "name": "Guard Villagers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187574,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/guardvillagers-1.18.2.1.4.4.jar",
+            "MD5": "3e3602ca03501d98ef901ce5008749f2"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:iceandfire:2.1.12-1.18.2@jar",
+          "name": "Ice and Fire",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21527416,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/iceandfire-2.1.12-1.18.2.jar",
+            "MD5": "95d9a4324b9f2f48e7d18e38c6725b2f"
+          }
+        },
+        {
+          "id": "immersive_armors:immersive_armors:1.5.6+1.18.2@jar",
+          "name": "Immersive Armors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1238987,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/immersive_armors-1.5.6+1.18.2-forge.jar",
+            "MD5": "5d04a675a2f2734f8fdf53d13098941d"
+          }
+        },
+        {
+          "id": "blusunrize.immersiveengineering:immersiveengineering:1.18.2-8.4.0-161@jar",
+          "name": "Immersive Engineering",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10990611,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ImmersiveEngineering-1.18.2-8.4.0-161.jar",
+            "MD5": "42692c1359ec70c721580e9452d69fa8"
+          }
+        },
+        {
+          "id": "flaxbeard.immersivepetroleum:immersivepetroleum:4.2.0-22@jar",
+          "name": "Immersive Petroleum",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2207167,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ImmersivePetroleum-1.18.2-4.2.0-22.jar",
+            "MD5": "1a309590e931410c1686e1ca870bb0b2"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.18.2-13.2.11@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 292497,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ironchest-1.18.2-13.2.11.jar",
+            "MD5": "48227046c0a4ac778b6028807ec3e19e"
+          }
+        },
+        {
+          "id": "ironfurnaces:ironfurnaces:3.3.3@jar",
+          "name": "Iron Furnaces",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 601584,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ironfurnaces-1.18.2-3.3.3.jar",
+            "MD5": "6590425a432884022acfaca53d3c5c77"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:10.2.1.1005@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1085640,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/jei-1.18.2-forge-10.2.1.1005.jar",
+            "MD5": "2ca8e4f60a1f0ff78838a93f5fb8f697"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.9.7@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7083711,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/journeymap-1.18.2-5.9.7-forge.jar",
+            "MD5": "75fbcc09ecce4e4bd7530dd204e3fcb5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:kleeslabs:11.1.1@jar",
+          "name": "KleeSlabs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285311,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/kleeslabs-forge-1.18.2-11.1.1.jar",
+            "MD5": "deb44a855f5972334496fbcb64268fa5"
+          }
+        },
+        {
+          "id": "l_ender.cataclysm:cataclysm:1.0@jar",
+          "name": "Cataclysm Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12720485,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/L_Enders%20Cataclysm-0.51-changed%20Them%20-1.18.2.jar",
+            "MD5": "517b8f2a674aa6ab6b67a7d6a3c3fa73"
+          }
+        },
+        {
+          "id": "me.steinborn:lazydfu:0.1.3@jar",
+          "name": "LazyDFU",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15445,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/lazydfu-1.0-1.18+.jar",
+            "MD5": "f90813b92c422c9f159c5e7d89167233"
+          }
+        },
+        {
+          "id": "mod.lucky:lucky:1.18.2-13.1@jar",
+          "name": "Lucky Block",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1955578,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/lucky-block-forge-1.18.2-13.1.jar",
+            "MD5": "87376fe354dc59ec10bc9af5bec36184"
+          }
+        },
+        {
+          "id": "de.geheimagentnr1:magical_torches:2.0.1@jar",
+          "name": "Magical Torches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 173433,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/MagicalTorches-1.18.2-2.0.1.jar",
+            "MD5": "bc30bc7f2cb14779b01270e6ab01a25b"
+          }
+        },
+        {
+          "id": "slimeknights.mantle:mantle:1.9.45@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 959480,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Mantle-1.18.2-1.9.45.jar",
+            "MD5": "7e0e8c4946c47ce61df82cf38f12582b"
+          }
+        },
+        {
+          "id": "mekanism:mekanism:10.2.5@jar",
+          "name": "Mekanism",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11619466,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Mekanism-1.18.2-10.2.5.465.jar",
+            "MD5": "c2bedf6c55e11d0993291354b990f43b"
+          }
+        },
+        {
+          "id": "mekanism.generators:mekanismgenerators:10.2.5@jar",
+          "name": "Mekanism: Generators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 991220,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/MekanismGenerators-1.18.2-10.2.5.465.jar",
+            "MD5": "e60fcf37337f968a107d89ef22c0e51b"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.13.0+mc1.18.2@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 759170,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/modernfix-forge-5.13.0+mc1.18.2.jar",
+            "MD5": "01ea7992dc780a6a77174360a63c8927"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.21@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76344,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/MouseTweaks-forge-mc1.18-2.21.jar",
+            "MD5": "3c10dff8a4d7c157184f2224db8639a2"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.5.32@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13595545,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/mowziesmobs-1.5.32.jar",
+            "MD5": "eab504676bd90ec934f4053a8808faeb"
+          }
+        },
+        {
+          "id": "com.lupicus:nasty:1.0.11@jar",
+          "name": "Nasty Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 128740,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/NastyMobs-1.18.2-1.0.11.jar",
+            "MD5": "1e2ead2706601417a314b791bdefdfd9"
+          }
+        },
+        {
+          "id": "com.starfish_studios:naturalist:1.1.1@jar",
+          "name": "Naturalist",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2105991,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/naturalist-forge-1.1.1-1.18.2.jar",
+            "MD5": "b11377911754392abbb88e9807d92245"
+          }
+        },
+        {
+          "id": "net.blay09.mods:netherportalfix:9.0.1@jar",
+          "name": "NetherPortalFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 216459,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/netherportalfix-forge-1.18.2-9.0.1.jar",
+            "MD5": "960d89446fcce5dbf4482535de0f29ba"
+          }
+        },
+        {
+          "id": "net.coderbot.iris:oculus:1.6.4@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3503276,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/optionaloff/oculus-mc1.18.2-1.6.4.jar",
+            "MD5": "27217fce55880bb932f21bf0e9b9c777"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "potionstudios.byg:byg:1.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36505227,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Oh_The_Biomes_You_ll_Go-forge-1.18.2-1.5.1.jar",
+            "MD5": "45905a6257be8039b0090b8601897e99"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2crops:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 - Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1013595,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/pamhc2crops-1.18.2-1.0.5.jar",
+            "MD5": "a87f7da38a08fdfad55a1de452dacbe7"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2foodcore:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 - Food Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 437561,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/pamhc2foodcore-1.18.2-1.0.3.jar",
+            "MD5": "297c9c24b7c68cee55283c0ba86d3046"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2foodextended:1.0@jar",
+          "name": "Pam's HarvestCraft 2 - Food Extended",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2098352,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/pamhc2foodextended-1.18.2-1.0.5.jar",
+            "MD5": "34bc870fa20718611715d0c58d42bb18"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2trees:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 - Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 671001,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/pamhc2trees-1.18.2-1.0.4.jar",
+            "MD5": "4841d8abd5deb1ef86c19ae7239ab9a6"
+          }
+        },
+        {
+          "id": "vazkii.patchouli:patchouli:1.18.2-71.1@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631415,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Patchouli-1.18.2-71.1.jar",
+            "MD5": "c16562c0c0095bc538c682517edc8b9c"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:3.2-358@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13743162,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Quark-3.2-358.jar",
+            "MD5": "ce00897b54456cc8847db82c9305f7a0"
+          }
+        },
+        {
+          "id": "com.refinedmods:refinedstorage:1.10.6@jar",
+          "name": "Refined Storage",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3252284,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/refinedstorage-1.10.6.jar",
+            "MD5": "136c375a8a1b3ee7053a0bc24761fe3c"
+          }
+        },
+        {
+          "id": "it.hurts.sskirillss:relics:0.4.1.8@jar",
+          "name": "Relics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1062030,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/relics-1.18.2-0.4.1.8.jar",
+            "MD5": "41522e4abe03ca6100cc47bfaa8c843a"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:selene:1.18.2-1.17.14@jar",
+          "name": "Selene",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 457644,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/selene-1.18.2-1.17.14.jar",
+            "MD5": "1eb66e2c9f68be2e8c6e74c08ddeefeb"
+          }
+        },
+        {
+          "id": "sereneseasons.core:sereneseasons:1.18.2-7.0.0.13@jar",
+          "name": "Serene Seasons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 137726,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Serene%20Seasons-1.18.2-7.0.0.13.jar",
+            "MD5": "8bf885c88cc1fb7c775bf3c8e7f875a7"
+          }
+        },
+        {
+          "id": "net.sweenus:simplyswords:1.40-1.18.2@jar",
+          "name": "Simply Swords",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31329505,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/simplyswords-forge-1.40-1.18.2.jar",
+            "MD5": "98110dc2dfb3779f54e3701e31cb9456"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:2.0.0-b1.0@jar",
+          "name": "Small Ships",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1792605,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/smallships-forge-1.18.2-2.0.0-b1.0.jar",
+            "MD5": "d929c18011c8a3c644de817feb701f6c"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:1.18.2-3.20.2.1036@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 837585,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/sophisticatedbackpacks-1.18.2-3.20.2.1036.jar",
+            "MD5": "46c54deca4aacec4d889c9d59c4adc34"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.18.2-0.6.4.604@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1069884,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/sophisticatedcore-1.18.2-0.6.4.604.jar",
+            "MD5": "45ebc0bc1609d814db8b027b9f34f01a"
+          }
+        },
+        {
+          "id": "com.oblivioussp:spartanshields:3.0.1@jar",
+          "name": "Spartan Shields",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 521368,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/SpartanShields-1.18.2-3.0.1.jar",
+            "MD5": "7f094d957241adf5baa9a52a01ae4a1c"
+          }
+        },
+        {
+          "id": "com.oblivioussp:spartanweaponry:3.0.3@jar",
+          "name": "Spartan Weaponry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2542200,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/SpartanWeaponry-1.18.2-3.0.3.jar",
+            "MD5": "c3edf6470c699894ed8c895b55abe21e"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:10.2.1@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 578059,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/StorageDrawers-1.18.2-10.2.1.jar",
+            "MD5": "dbca0eeb2e7ed37cb585b6def632be4d"
+          }
+        },
+        {
+          "id": "com.t2pellet:strawgolem:2.0.0-beta.5@jar",
+          "name": "Straw Golem",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1139383,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Strawgolem-forge-1.18.2-2.0.0-beta.5.jar",
+            "MD5": "3f965556b5a7731e2fe9e9581251b2f0"
+          }
+        },
+        {
+          "id": "com.legacy.structure_gel.core:structure_gel:2.4.8@jar",
+          "name": "Structure Gel API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 672857,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/structure_gel-1.18.2-2.4.8.jar",
+            "MD5": "f7d7ddcde687a41fcf006011be5d8c04"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.18.2-1.5.18@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13904989,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/supplementaries-1.18.2-1.5.18.jar",
+            "MD5": "374ff11dc914e4ca9b514b75f18b3bc1"
+          }
+        },
+        {
+          "id": "slimeknights.tconstruct:tconstruct:3.6.4.113@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16061701,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/TConstruct-1.18.2-3.6.4.113.jar",
+            "MD5": "f36dd8fabb991ca0ae58499b24febf97"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:1.2.0.126@jar",
+          "name": "TerraBlender",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 96811,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/TerraBlender-forge-1.18.2-1.2.0.126.jar",
+            "MD5": "8bb74f84db692a34652d0d8bd2e3749f"
+          }
+        },
+        {
+          "id": "net.stardustlabs:terralith:2.2.6@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3157707,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Terralith_1.18.2_v2.2.6.jar",
+            "MD5": "644bbc1b42a6fa8f1addd4e1d266d781"
+          }
+        },
+        {
+          "id": "cofh.thermal.cultivation:thermal_cultivation:9.2.1@jar",
+          "name": "Thermal Cultivation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 660191,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_cultivation-1.18.2-9.2.1.20.jar",
+            "MD5": "40d410d7f457379157c4adbf64660411"
+          }
+        },
+        {
+          "id": "cofh.thermal.dynamics:thermal_dynamics:9.2.2@jar",
+          "name": "Thermal Dynamics",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 613615,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_dynamics-1.18.2-9.2.2.19.jar",
+            "MD5": "3831e28b3b7a20a82dafa7541d757d3a"
+          }
+        },
+        {
+          "id": "cofh.thermal.expansion:thermal_expansion:9.2.2@jar",
+          "name": "Thermal Expansion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 607609,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_expansion-1.18.2-9.2.2.24.jar",
+            "MD5": "32f69f6fe9256ee6e512a6168d94a9b6"
+          }
+        },
+        {
+          "id": "cofh.thermal.core:thermal:9.2.2@jar",
+          "name": "Thermal Series",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5097368,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_foundation-1.18.2-9.2.2.58.jar",
+            "MD5": "fa1f3ddfa5dc6bd4c488fabd62480e51"
+          }
+        },
+        {
+          "id": "cofh.thermal.innovation:thermal_innovation:9.2.1@jar",
+          "name": "Thermal Innovation",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 224811,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_innovation-1.18.2-9.2.1.19.jar",
+            "MD5": "602e6ce68c0110a4ac6994430a44e679"
+          }
+        },
+        {
+          "id": "cofh.thermal.integration:thermal_integration:9.2.1@jar",
+          "name": "Thermal Integration",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 372378,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_integration-1.18.2-9.2.1.18.jar",
+            "MD5": "37708053f9d4af1e9cc6bf5e102e98cf"
+          }
+        },
+        {
+          "id": "cofh.thermal.locomotion:thermal_locomotion:9.2.1@jar",
+          "name": "Thermal Locomotion",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 205437,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/thermal_locomotion-1.18.2-9.2.1.15.jar",
+            "MD5": "19ac0bbd6d107216c29b50d9fd7fb376"
+          }
+        },
+        {
+          "id": "de.cristelknight999:t_and_t:1.10.0.1@jar",
+          "name": "Towns and Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2722418,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/towns_and_towers_forge-1.10.0.1+1.18.2.jar",
+            "MD5": "f4f915d399eeef8c4ee2740d368802c0"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:4.1.1494@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32922068,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/twilightforest-1.18.2-4.1.1494-universal.jar",
+            "MD5": "8626ba7afd76dcb72f8d569894d44288"
+          }
+        },
+        {
+          "id": "com.stereowalker:unionlib:7.2.4@jar",
+          "name": "UnionLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 286011,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/UnionLib-1.18.2-7.2.4-Forge.jar",
+            "MD5": "a0c86754c006bb161971532887cf3b3d"
+          }
+        },
+        {
+          "id": "uppers:uppers:0.4.1@jar",
+          "name": "Uppers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 32281,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/Uppers-0.4.1.jar",
+            "MD5": "1a65c90a3d7ed90dbe86cc14c6ba0246"
+          }
+        },
+        {
+          "id": "net.valhelsia.valhelsia_core.core:valhelsia_core:1.18.2-0.4.0@jar",
+          "name": "Valhelsia Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 640456,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/valhelsia_core-forge-1.18.2-0.4.0.jar",
+            "MD5": "9e28492776894071d5f5537f0febe9be"
+          }
+        },
+        {
+          "id": "com.stal111.valhelsia_structures.core:valhelsia_structures:1.18.2-0.1.1@jar",
+          "name": "Valhelsia Structures",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2130815,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/valhelsia_structures-1.18.2-0.1.1.jar",
+            "MD5": "655cd2ba0c777114e926fbafedee9578"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.18.2-2.4.32@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8100984,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/voicechat-forge-1.18.2-2.4.32.jar",
+            "MD5": "8be3e186288200da7b085620301c2792"
+          }
+        },
+        {
+          "id": "mods.waterstrainer:waterstrainer:1.18.2-13.0.0@jar",
+          "name": "Water Strainer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 237935,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/WaterStrainer-1.18.2-13.0.0.jar",
+            "MD5": "0cf130beb38f6ebd411006bb919b6e63"
+          }
+        },
+        {
+          "id": "weather2:weather2:1.18.2-2.7.5@jar",
+          "name": "Weather2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6720798,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/weather2-1.18.2-2.7.5.jar",
+            "MD5": "99e84ec1b6d7c98b88daa93bfda920ef"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.18.2-Forge-2.2.9@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 301487,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/YungsApi-1.18.2-Forge-2.2.9.jar",
+            "MD5": "ec58ada4e6951d88e0951d9238f4f0c6"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.18.2-Forge-1.3.1@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1488139,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/YungsBetterDesertTemples-1.18.2-Forge-1.3.1.jar",
+            "MD5": "226ccde2fcf1313e4b104072d305b544"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.18.2-Forge-1.0@jar",
+          "name": "YUNG's Better End Island",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 636900,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/YungsBetterEndIsland-1.18.2-Forge-1.0.jar",
+            "MD5": "5d5715495c7f7410da28570052c6aeb6"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.18.2-Forge-2.2@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 274075,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/YungsBetterMineshafts-1.18.2-Forge-2.2.jar",
+            "MD5": "8419d7d54b5818fcd34a00ac308ca4ff"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.18.2-Forge-2.1.1@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593261,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/YungsBetterStrongholds-1.18.2-Forge-2.1.1.jar",
+            "MD5": "9189fbe62f04e5edfbd9c1c0f670ce8d"
+          }
+        },
+        {
+          "id": "it.zerono.mods:zerocore:1.18.2-2.1.39@jar",
+          "name": "Zero CORE 2",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1149940,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/forgemods/required/ZeroCore2-1.18.2-2.1.39.jar",
+            "MD5": "c2b208eeba341a79b8dbb0f17bd2ddd1"
+          }
+        },
+        {
+          "id": "Clarity_1.18.zip",
+          "name": "Clarity_1.18.zip",
+          "type": "File",
+          "artifact": {
+            "size": 37316192,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/Clarity_1.18.zip",
+            "MD5": "3728d097eaf7d859a27fc1cec3921a9a",
+            "path": "resourcepacks/Clarity_1.18.zip"
+          }
+        },
+        {
+          "id": "Depixel.zip",
+          "name": "Depixel.zip",
+          "type": "File",
+          "artifact": {
+            "size": 11438960,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/Depixel.zip",
+            "MD5": "cdf38e949c635dd8a567e88509108647",
+            "path": "resourcepacks/Depixel.zip"
+          }
+        },
+        {
+          "id": "Faithful 32x - 1.18.2.zip",
+          "name": "Faithful 32x - 1.18.2.zip",
+          "type": "File",
+          "artifact": {
+            "size": 7365032,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/Faithful%2032x%20-%201.18.2.zip",
+            "MD5": "2aa95e920b0f643a84fa889c90aa0768",
+            "path": "resourcepacks/Faithful 32x - 1.18.2.zip"
+          }
+        },
+        {
+          "id": "ModernaHD-1.17-v1.0.zip",
+          "name": "ModernaHD-1.17-v1.0.zip",
+          "type": "File",
+          "artifact": {
+            "size": 1573946,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/ModernaHD-1.17-v1.0.zip",
+            "MD5": "648c4f3aea3a3b54e6d8041e05f7ba46",
+            "path": "resourcepacks/ModernaHD-1.17-v1.0.zip"
+          }
+        },
+        {
+          "id": "PureBDcraft 32x MC118.zip",
+          "name": "PureBDcraft 32x MC118.zip",
+          "type": "File",
+          "artifact": {
+            "size": 18784910,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/PureBDcraft%2032x%20MC118.zip",
+            "MD5": "581d0e4fb1046bef730d79dc775eb445",
+            "path": "resourcepacks/PureBDcraft 32x MC118.zip"
+          }
+        },
+        {
+          "id": "Serene-HD-Pack-32x-1.19.zip",
+          "name": "Serene-HD-Pack-32x-1.19.zip",
+          "type": "File",
+          "artifact": {
+            "size": 8434341,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/Serene-HD-Pack-32x-1.19.zip",
+            "MD5": "c739c22ffd9ba4b468761874154d516c",
+            "path": "resourcepacks/Serene-HD-Pack-32x-1.19.zip"
+          }
+        },
+        {
+          "id": "Soartex_Fanver.zip",
+          "name": "Soartex_Fanver.zip",
+          "type": "File",
+          "artifact": {
+            "size": 50470615,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/resourcepacks/Soartex_Fanver.zip",
+            "MD5": "e6dab8a2cf5015def7fb5036576935ba",
+            "path": "resourcepacks/Soartex_Fanver.zip"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 34618,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Oxygen-1.18.2/files/servers.dat",
+            "MD5": "0d0182af1222da0351c01f5f71e043ce",
+            "path": "servers.dat"
+          }
+        }
+      ]
+    },
+    {
+      "id": "Waterfall-1.20.1",
+      "name": "Waterfall (Minecraft 1.20.1)",
+      "description": "Waterfall Running Minecraft 1.20.1 (Forge v47.4.0)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.0",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7399,
+            "MD5": "a839d5603a05491f84f6c36284ab0ea8",
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.0/lowcodelanguage-1.20.1-47.4.0.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.0",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16612,
+                "MD5": "029daa8b97e10cedd4d6726a563379ab",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/1.20.1-forge-47.4.0/1.20.1-forge-47.4.0.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118914,
+                "MD5": "bc798cdec9ec7eeb3354b550d5e67652",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.0/fmlcore-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16855,
+                "MD5": "10ca1edc0a62ea799c4327bfc44e5ad6",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.0/javafmllanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.0",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4998,
+                "MD5": "cd3d6af64b394583aa83090915469f9e",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.0/mclanguage-1.20.1-47.4.0.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2776081,
+                "MD5": "f373b63ab9bfe53f7b35aaa425afa136",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.0:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4826828,
+                "MD5": "1940b09c4b066287963bde17aa375cec",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forge/1.20.1-47.4.0/forge-1.20.1-47.4.0-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.7.1",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126093,
+                "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.7.1",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73459,
+                "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.7.1",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51939,
+                "MD5": "e85029f613b6469989cc7cf53fe06b74",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.7.1",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94519,
+                "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.7.1",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35126,
+                "MD5": "4cd9e7178dfb85371bba3077e40cd514",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "5b26aba9f44796d54094022c1e73a49e",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.0/fmlloader-1.20.1-47.4.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.0",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170517,
+                "MD5": "68747d96f635b0a0dc9e070d3596a562",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.0/fmlearlydisplay-1.20.1-47.4.0.jar"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "WeArt_Together-1.21.4",
+      "name": "WeArt_Together (Minecraft 1.21.4)",
+      "description": "WeArt_Together Running Minecraft 1.21.4 (Fabric v0.16.14)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.21.4",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.16.14",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1416842,
+            "MD5": "e041ec21fad8f4dbd2ba7e73c25900d1",
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/fabric-loader/0.16.14/fabric-loader-0.16.14.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.21.4-fabric-0.16.14",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2849,
+                "MD5": "86bc1dc6daccd0ef15a8b1ee85db7b2b",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/1.21.4-fabric-0.16.14/1.21.4-fabric-0.16.14.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.15.5+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1499194,
+                "MD5": "f810932fdff9aa436d7d4f4ac69ce8c2",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.21.4",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 701826,
+                "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
