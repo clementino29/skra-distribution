@@ -236,16 +236,6 @@
           }
         },
         {
-          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.4.29-universal@jar",
-          "name": "CodeChickenCore",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 157678,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.4.29-universal.jar",
-            "MD5": "23978d3c16f19d0d2808c4b451d78f87"
-          }
-        },
-        {
           "id": "generated.forgemod:colourfulportalsmod:1.4.2@jar",
           "name": "Colourful Portals",
           "type": "ForgeMod",
@@ -353,16 +343,6 @@
             "size": 1729803,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/MrCrayfishFurnitureModv3.4.8(1.7.10).jar",
             "MD5": "500838ab284bb4c5e1ec0efb3ebbb44d"
-          }
-        },
-        {
-          "id": "codechicken.nei:notenoughitems:1.7.10-1.0.3.74-universal@jar",
-          "name": "NotEnoughItems",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 507333,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/NotEnoughItems-1.7.10-1.0.3.74-universal.jar",
-            "MD5": "7c2c35414e28e0dc01eea315368bc1ec"
           }
         },
         {
