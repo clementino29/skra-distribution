@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "Dragonista-1.7.10",
-      "name": "Dragonista (Minecraft 1.7.10)",
+      "name": "Dragonista (1.7.10)",
       "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
       "icon": "https://www.dropbox.com/scl/fi/mclykb2xxd3ngaapru54m/Dragonista.png?rlkey=wvvi8uodh1sdm01nrwozs926r&st=8k8u3716&dl=1",
       "version": "1.0.0",
@@ -527,16 +527,16 @@
     },
     {
       "id": "Epsilonia-1.19.4",
-      "name": "Epsilonia (Minecraft 1.19.4)",
-      "description": "Epsilonia Running Minecraft 1.19.4 (Fabric v0.16.14)",
+      "name": "Epsilonia (1.19.4)",
+      "description": "Pour visiter les palaces que cezane nous construit actuellement",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Epsilonia.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.19.4",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Epsilonia",
+        "largeImageText": "Epsilonia",
+        "largeImageKey": "epsilonia"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -681,16 +681,16 @@
     },
     {
       "id": "Oxygen-1.18.2",
-      "name": "Oxygen (Minecraft 1.18.2)",
-      "description": "Oxygen Running Minecraft 1.18.2 (Forge v40.3.10)",
+      "name": "Oxygen - Survie II (1.18.2)",
+      "description": "Modpack utilisée pour la survie moddée en 1.18.2",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Survie.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.18.2",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Oxygen - Survie II",
+        "largeImageText": "Oxygen",
+        "largeImageKey": "survie"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -2278,16 +2278,16 @@
     },
     {
       "id": "Waterfall-1.20.1",
-      "name": "Waterfall (Minecraft 1.20.1)",
-      "description": "Waterfall Running Minecraft 1.20.1 (Forge v47.4.0)",
-      "icon": null,
+      "name": "Projet Waterfall (1.20.1)",
+      "description": "Version de test ppur le projet Waterfall (Juil. 25)",
+      "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "Waterfall",
+        "largeImageText": "Projet Waterfall",
+        "largeImageKey": "waterfall"
       },
       "mainServer": false,
       "autoconnect": false,
@@ -2705,18 +2705,18 @@
     },
     {
       "id": "WeArt_Together-1.21.4",
-      "name": "WeArt_Together (Minecraft 1.21.4)",
-      "description": "WeArt_Together Running Minecraft 1.21.4 (Fabric v0.16.14)",
+      "name": "WeArt Together (1.21.4)",
+      "description": "Version dédiée pour accéder sereinement au serveur plot de cezane",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/wat.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.21.4",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "WAT",
+        "largeImageText": "WeArt Together",
+        "largeImageKey": "wat"
       },
-      "mainServer": false,
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
