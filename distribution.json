@@ -11,7 +11,7 @@
       "id": "Dragonista-1.7.10",
       "name": "Dragonista (Minecraft 1.7.10)",
       "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
-      "icon": "https://drive.google.com/uc?export=download&id=17RduWFHwdVQr7W6mhB-1TsA6d0R2x3zJ",
+      "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Dragonista.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.7.10",
@@ -577,7 +577,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2849,
-                "MD5": "5372c9f53bbfeb1acd3f5958a5ba6032",
+                "MD5": "450e9011b5314bf8ee3ee3f74ae24913",
                 "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/1.19.4-fabric-0.16.14/1.19.4-fabric-0.16.14.json"
               }
             },
@@ -2300,7 +2300,7 @@
       "id": "Waterfall-1.20.1",
       "name": "Projet Waterfall (1.20.1)",
       "description": "Version de test pour le projet Waterfall (Juil. 25)",
-      "icon": "ttps://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
+      "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
@@ -2755,7 +2755,7 @@
               "type": "VersionManifest",
               "artifact": {
                 "size": 2849,
-                "MD5": "86bc1dc6daccd0ef15a8b1ee85db7b2b",
+                "MD5": "5370fab60b76f1a32926b73ccfb06edb",
                 "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/1.21.4-fabric-0.16.14/1.21.4-fabric-0.16.14.json"
               }
             },
