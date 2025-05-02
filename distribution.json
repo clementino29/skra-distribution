@@ -1,17 +1,17 @@
 {
   "version": "1.0.0",
-  "rss": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/master/rss.xml",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1215386430130356334",
-    "smallImageText": "Sakura Launcher",
-    "smallImageKey": "sakura_launcher"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
       "id": "Dragonista-1.7.10",
-      "name": "Dragonista (1.7.10)",
+      "name": "Dragonista (Minecraft 1.7.10)",
       "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
-      "icon": "https://www.dropbox.com/scl/fi/mclykb2xxd3ngaapru54m/Dragonista.png?rlkey=wvvi8uodh1sdm01nrwozs926r&st=8k8u3716&dl=1",
+      "icon": "https://drive.google.com/uc?export=download&id=17RduWFHwdVQr7W6mhB-1TsA6d0R2x3zJ",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.7.10",
@@ -236,6 +236,16 @@
           }
         },
         {
+          "id": "codechicken.core.launch:codechickencore:1.7.10-1.0.4.29-universal@jar",
+          "name": "CodeChickenCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157678,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/CodeChickenCore-1.7.10-1.0.4.29-universal.jar",
+            "MD5": "23978d3c16f19d0d2808c4b451d78f87"
+          }
+        },
+        {
           "id": "generated.forgemod:colourfulportalsmod:1.4.2@jar",
           "name": "Colourful Portals",
           "type": "ForgeMod",
@@ -343,6 +353,16 @@
             "size": 1729803,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/MrCrayfishFurnitureModv3.4.8(1.7.10).jar",
             "MD5": "500838ab284bb4c5e1ec0efb3ebbb44d"
+          }
+        },
+        {
+          "id": "codechicken.nei:notenoughitems:1.7.10-1.0.3.74-universal@jar",
+          "name": "NotEnoughItems",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 507333,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Dragonista-1.7.10/forgemods/required/NotEnoughItems-1.7.10-1.0.3.74-universal.jar",
+            "MD5": "7c2c35414e28e0dc01eea315368bc1ec"
           }
         },
         {
@@ -2279,8 +2299,8 @@
     {
       "id": "Waterfall-1.20.1",
       "name": "Projet Waterfall (1.20.1)",
-      "description": "Version de test ppur le projet Waterfall (Juil. 25)",
-      "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
+      "description": "Version de test pour le projet Waterfall (Juil. 25)",
+      "icon": "ttps://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
@@ -2709,7 +2729,7 @@
       "description": "Version dédiée pour accéder sereinement au serveur plot de cezane",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/wat.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "wearttogether.craft.gg:10004",
       "minecraftVersion": "1.21.4",
       "discord": {
         "shortId": "WAT",
@@ -2810,6 +2830,61 @@
               }
             }
           ]
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.119.2+1.21.4@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2147553,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/WeArt_Together-1.21.4/fabricmods/required/fabric-api-0.119.2+1.21.4.jar",
+            "MD5": "a543174245cd21248bfee7a5a826d718"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.8.8+mc1.21.4@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2682702,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/WeArt_Together-1.21.4/fabricmods/optionaloff/iris-fabric-1.8.8+mc1.21.4.jar",
+            "MD5": "59d373e4874efbcb8fb426bdefa588d9"
+          },
+          "required": {
+            "value": false,
+            "def": false
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:lithium:0.15.3+mc1.21.4@jar",
+          "name": "Lithium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 797555,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/WeArt_Together-1.21.4/fabricmods/required/lithium-fabric-0.15.3+mc1.21.4.jar",
+            "MD5": "7a3a807eed9c4868fbe14cecd8bb082d"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.6.13+mc1.21.4@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1306799,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/WeArt_Together-1.21.4/fabricmods/required/sodium-fabric-0.6.13+mc1.21.4.jar",
+            "MD5": "28922a78d1876ee062e3265f10abcc46"
+          }
+        },
+        {
+          "id": "servers.dat",
+          "name": "servers.dat",
+          "type": "File",
+          "artifact": {
+            "size": 14480,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/WeArt_Together-1.21.4/files/servers.dat",
+            "MD5": "ef94f585d42156a421ca1664e95c72e3",
+            "path": "servers.dat"
+          }
         }
       ]
     }

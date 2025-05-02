@@ -2,16 +2,16 @@
   "$schema": "file:///C:/Users/cleme/Documents/GitHub/skra-distribution/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "WeArt_Together (Minecraft 1.21.4)",
-    "description": "WeArt_Together Running Minecraft 1.21.4 (Fabric v0.16.14)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "name": "WeArt Together (1.21.4)",
+    "description": "Version dédiée pour accéder sereinement au serveur plot de cezane",
+    "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/wat.png",
+    "address": "wearttogether.craft.gg:10004",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "WAT",
+      "largeImageText": "WeArt Together",
+      "largeImageKey": "wat"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": false
   },
   "fabric": {

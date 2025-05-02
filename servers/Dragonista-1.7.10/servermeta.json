@@ -9,7 +9,7 @@
     "discord": {
       "shortId": "Dragonista",
       "largeImageText": "Dragonista",
-      "largeImageKey": "nether_star"
+      "largeImageKey": "dragonista"
     },
     "mainServer": false,
     "autoconnect": false

@@ -2,14 +2,14 @@
   "$schema": "file:///C:/Users/cleme/Documents/GitHub/skra-distribution/schemas/ServerMetaSchema.schema.json",
   "meta": {
     "version": "1.0.0",
-    "name": "Waterfall (Minecraft 1.20.1)",
-    "description": "Waterfall Running Minecraft 1.20.1 (Forge v47.4.0)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "name": "Projet Waterfall (1.20.1)",
+    "description": "Version de test pour le projet Waterfall (Juil. 25)",
+    "icon": "ttps://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
     "address": "localhost:25565",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "Waterfall",
+      "largeImageText": "Projet Waterfall",
+      "largeImageKey": "waterfall"
     },
     "mainServer": false,
     "autoconnect": false
