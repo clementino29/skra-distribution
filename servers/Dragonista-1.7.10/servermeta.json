@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "name": "Dragonista (Minecraft 1.7.10)",
     "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
-    "icon": "https://drive.google.com/uc?export=download&id=17RduWFHwdVQr7W6mhB-1TsA6d0R2x3zJ",
+    "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Dragonista.png",
     "address": "localhost:25565",
     "discord": {
       "shortId": "Dragonista",
