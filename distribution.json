@@ -10,7 +10,7 @@
     {
       "id": "Dragonista-1.7.10",
       "name": "Dragonista (Minecraft 1.7.10)",
-      "description": "Pour visiter les 3m² que construisait cezane, il y a 10 ans",
+      "description": "",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Dragonista.png",
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -548,7 +548,7 @@
     {
       "id": "Epsilonia-1.19.4",
       "name": "Epsilonia (1.19.4)",
-      "description": "Pour visiter les palaces que cezane nous construit actuellement",
+      "description": "",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Epsilonia.png",
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -702,7 +702,7 @@
     {
       "id": "Oxygen-1.18.2",
       "name": "Oxygen - Survie II (1.18.2)",
-      "description": "Modpack utilisée pour la survie moddée en 1.18.2",
+      "description": "",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Survie.png",
       "version": "1.0.0",
       "address": "localhost:25565",
