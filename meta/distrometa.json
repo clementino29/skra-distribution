@@ -1,11 +1,11 @@
 {
   "$schema": "file:///C:/Users/cleme/Documents/GitHub/skra-distribution/schemas/DistroMetaSchema.schema.json",
   "meta": {
-    "rss": "<LINK TO RSS FEED>",
+    "rss": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/rss.xml",
     "discord": {
-      "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "clientId": "1215386430130356334",
+      "smallImageText": "Minecraft - Sakura Launcher",
+      "smallImageKey": "sakura_launcher"
     }
   }
 }
