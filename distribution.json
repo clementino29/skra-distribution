@@ -2214,16 +2214,6 @@
           }
         },
         {
-          "id": "com.github.l_ender:cataclysm:3.16@jar",
-          "name": "Cataclysm",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 127993805,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/L_Enders_Cataclysm-3.16.jar",
-            "MD5": "de747fb259b761f7b872654516fa27b3"
-          }
-        },
-        {
           "id": "dev.xkmc.l2library.init:l2library:2.5.3@jar",
           "name": "L2 Library",
           "type": "ForgeMod",
