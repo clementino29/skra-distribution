@@ -2214,6 +2214,26 @@
           }
         },
         {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:3.16@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 127993805,
+            "url": "https://1drv.ms/u/c/6F73351B69632610/IQQ1txqt48LhT4kdr17-dVEoAboT5vylEjie9LoR0mzgAc0",
+            "MD5": "de747fb259b761f7b872654516fa27b3"
+          }
+        },
+        {
           "id": "dev.xkmc.l2library.init:l2library:2.5.3@jar",
           "name": "L2 Library",
           "type": "ForgeMod",
@@ -2231,6 +2251,16 @@
             "size": 162767,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/lionfishapi-2.4-Fix.jar",
             "MD5": "81efd7c198c3c7036c77c79cae764ed4"
+          }
+        },
+        {
+          "id": "generated.forgemod:melody_fabric_1.0.4_mc_1.20.1:1.20.4@jar",
+          "name": "Melody_fabric_1.0.4_MC_1.20.1",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 39696,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/melody_fabric_1.0.4_MC_1.20.1-1.20.4.jar",
+            "MD5": "8095b46d324586b3cf3d2f5bffe8b417"
           }
         },
         {
