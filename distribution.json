@@ -1950,13 +1950,13 @@
           }
         },
         {
-          "id": "generated.forgemod:blahaj:quilt-1.20.1-0.3.0@jar",
+          "id": "generated.forgemod:blahaj:fabric-1.20.0-0.3.2@jar",
           "name": "Blahaj",
           "type": "ForgeMod",
           "artifact": {
-            "size": 36785,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/blahaj-quilt-1.20.1-0.3.0.jar",
-            "MD5": "9635394d160ff12130b8c04416f53fa5"
+            "size": 36285,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/blahaj-fabric-1.20.0-0.3.2.jar",
+            "MD5": "5b99c36da0fa6097294333da7902016a"
           }
         },
         {
