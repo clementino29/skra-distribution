@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "Oxygen-1.18.2",
-      "name": "Oxygen - Survie II (1.18.2)",
+      "name": "Survie II - Oxygen (1.18.2)",
       "description": "Modpack utilisée pour la survie moddée en 1.18.2",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Survie.png",
       "version": "1.0.0",
@@ -1476,14 +1476,14 @@
     },
     {
       "id": "Waterfall-1.20.1",
-      "name": "Projet Waterfall (1.20.1)",
+      "name": "Survie III - Waterfall (1.20.1)",
       "description": "Version de test pour le projet Waterfall (Juil. 25)",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
       "version": "1.0.0",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "Waterfall",
+        "shortId": "Waterfall - Survie III",
         "largeImageText": "Projet Waterfall",
         "largeImageKey": "waterfall"
       },
