@@ -1476,14 +1476,14 @@
     },
     {
       "id": "Waterfall-1.20.1",
-      "name": "Waterfall - Survie 3 - Test Version (1.20.1)",
+      "name": "Waterfall - Survie III - Test Version (1.20.1)",
       "description": "Version de test pour le projet Waterfall (ETA Juil. 26)",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
       "version": "0.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "Waterfall - Survie 3 - Test Version",
+        "shortId": "Waterfall - Survie III - Test Version",
         "largeImageText": "Waterfall - Version Test",
         "largeImageKey": "waterfall"
       },
