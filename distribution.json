@@ -2839,6 +2839,17 @@
           }
         },
         {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 290,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "73bb7f566e3ec96e57c288ecdbb8776d",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
           "id": "0.jpg",
           "name": "0.jpg",
           "type": "File",
@@ -3397,6 +3408,1150 @@
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/waystones-common.toml",
             "MD5": "f63942330c8c403974a68d64defaaa15",
             "path": "config/waystones-common.toml"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 124715,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar",
+            "MD5": "24875a78d5717c8c103f53cf7d437c5c",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar.input",
+            "MD5": "24b05fd8257d6c048204a4532a497d05",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 112578,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "bd6a440c7b9c0b23a4a2212d246154a4",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "9c70ac82a7a9aa33e0389cee0c142722",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9921,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "9555cbde4021d371a1b0aa242d7ca9c8",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "4b6e112a15d683a096feed7a568efbd4",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 10384,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "e5182f50d3f1c84dce239e7b736ec246",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "ba38759e213dd8e45cb4b73ada8d142b",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16388,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "281a209c2d199a29aad249373def4116",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "9a2bdfa643173312abb450cb406e0fad",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 65076,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "9b808a9cc537a7157b6f32a4e1453620",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "df9052ca8ac786d704ca0fe823393ebb",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7306,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "208817a5e06517945954e83ab115f1e3",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "eafd34afe4e6e6690936dae5a6e9ba95",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 33420,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "7e613912ab6b350ced1a9aa22c760770",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "5ad0c1f2ede8c1805095ca2fcc35b319",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31508,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "f4f6bb86dd14d8c8492081e5a31841b2",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "e400f61ebcd56cbc58af70b38112fea2",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18353,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "1920cbd15716e82002a16b37846c85bd",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "5b5fcae5df8d539f2c7971b1297f4551",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 13916,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "1d43cc4b1c776783fd5ac3d51a7c23a8",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "5e3136b5bea404983557c58cfc144378",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9559,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "70593b23f8f8ae2b116f652c7fe4627e",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "5186c9e5f708c39c4894431a4b638dba",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 36630,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "56aa8053edff3726d661d81834ae232b",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "43e1cd3f93bbcb1f7e7d9cc661b16b00",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12381,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "a7095fbe8491edd1fe214bdfd080dcff",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "8e7513bb565b6378557290b2f7849400",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 18631,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "00cf8ff22dfcc605a36f16b5322e7d4b",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "a150c920d488d0d373e6fdace4ef2c36",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 52362,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "7ba408059ede44c3ca8a3c4baad214d8",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "f8e79dfd8fd106aba9cea70b7a7195a4",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 23726,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "9aee6e535b7bbaff7096987dd4879f90",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "bb162c5db1499f42f48e8a6c13ac0be1",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8754,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "7864d620f8f51772619f7cffeda19f2a",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "6694c3bdf9a933fd012a72bdc5c7613f",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 45077,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "238b7313d249aa5414c0ca083b6f6691",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "7c845e7d927bb30bdbe60f3788575a27",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8217,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "f66e41c5030df886b47806a3e0639646",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "3bf947722f40e5773233093be56d1199",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 40049,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "53ba2415fcf83992bda3c956429ddff5",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "26f95d0c118df1a08e93d4eaa69de5e8",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 205713,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar",
+            "MD5": "65ad7bd0ea2751ce2c9a596061001d38",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar.input",
+            "MD5": "43f71056136d8107f1bc019e578d7af6",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 49873,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar",
+            "MD5": "be62eda48fd1c4f9340ee40ae56169c9",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar.input",
+            "MD5": "df5e133555c83d86fca7c950735e9f4c",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 441478,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar",
+            "MD5": "5b9fb4790c660091df85f768c7b8e301",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar.input",
+            "MD5": "becf13ac5ad2606a04fa2741d7333825",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 32766,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar",
+            "MD5": "996ee1cc595906f7e9f27e4a5e498ea6",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar.input",
+            "MD5": "0ba601731816ae8a7a70da657f3f4059",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1425202,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar",
+            "MD5": "bf8851d08d73461d7d34443387e826b0",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input",
+            "MD5": "c0259266bea4a5ffa8922fa9fdba83cb",
+            "path": "mods/.connector/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13_mapped_srg_1.20.1.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 121609,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar",
+            "MD5": "a9fc0cc49a2a817c7e73e557755d65fa",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar.input",
+            "MD5": "24b05fd8257d6c048204a4532a497d05",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$asyncutil-0.1.0.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 112739,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "3c6d82c93d7001b4108657d83cc239db",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "9c70ac82a7a9aa33e0389cee0c142722",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-base-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8771,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "115b9e2e059a97e803a04737744061c1",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "4b6e112a15d683a096feed7a568efbd4",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-client-uncapvd-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 9126,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "19384184bf3e235e1150833681c90dde",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "ba38759e213dd8e45cb4b73ada8d142b",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-chunkio-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 15076,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "de43b769801c789f5683ff813cdfaf29",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "9a2bdfa643173312abb450cb406e0fad",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-general-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 63404,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "7783fdd1a26dd2a23b0560a02c08735b",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "df9052ca8ac786d704ca0fe823393ebb",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-threading-issues-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5984,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "db6cbcefa31013243b82b82bc4f12cd2",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "eafd34afe4e6e6690936dae5a6e9ba95",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-fixes-worldgen-vanilla-bugs-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 32180,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "0a630fd64df2af7fbc0085e2385d78bb",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "5ad0c1f2ede8c1805095ca2fcc35b319",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-notickvd-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 30358,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "18e4f8e703d34b6911d1a8db5e539f45",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "e400f61ebcd56cbc58af70b38112fea2",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-allocs-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 16948,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "0c2e5d123a86edb3d911650779ae7952",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "5b5fcae5df8d539f2c7971b1297f4551",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunk-access-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 12740,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "5180a51ae408f6f308b99aea7d033986",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "5e3136b5bea404983557c58cfc144378",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 8372,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "bc2c504a0128eb9ebee61749a53c84c0",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "5186c9e5f708c39c4894431a4b638dba",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-math-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 35508,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "d1ee87cb8b1f9d5cfa0f6c7529c7b730",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "43e1cd3f93bbcb1f7e7d9cc661b16b00",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-scheduling-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 11004,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "2c2004d8876a9cc2f78834fb436274e4",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "8e7513bb565b6378557290b2f7849400",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-general-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 17176,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "7f9023e83a35dabcb239894c371451ef",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "a150c920d488d0d373e6fdace4ef2c36",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-opts-worldgen-vanilla-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 50726,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "7224d7b8392f85496bcf74dea1c528f8",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "f8e79dfd8fd106aba9cea70b7a7195a4",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunk-serializer-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 22465,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "85d476348665e4f3b00952d254e307d7",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "bb162c5db1499f42f48e8a6c13ac0be1",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-rewrites-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 7532,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "3571f81ae7aed197295e9c98c1b42682",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "6694c3bdf9a933fd012a72bdc5c7613f",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-server-utils-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 43267,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "13fc1750972526bac1fc9a571a74b244",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "7c845e7d927bb30bdbe60f3788575a27",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-chunkio-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 6815,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "469f0cdf5af9a8ebe2f5cfcfaa987fd0",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "3bf947722f40e5773233093be56d1199",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-lighting-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 38443,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "580df6060812a70cb1f85a37e9960c3d",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar.input",
+            "MD5": "26f95d0c118df1a08e93d4eaa69de5e8",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$c2me-threading-worldgen-mc1.20.1-0.2.0+alpha.11.13.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 201384,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar",
+            "MD5": "39ee365643a551cf4c86740bfafc5da1",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar.input",
+            "MD5": "43f71056136d8107f1bc019e578d7af6",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$core-3.6.5.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar",
+          "type": "File",
+          "artifact": {
+            "size": 47792,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar",
+            "MD5": "8a04de53cf0f78ce73fbbe07a908961f",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar.input",
+            "MD5": "df5e133555c83d86fca7c950735e9f4c",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$exp4j-0.4.8.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar",
+          "type": "File",
+          "artifact": {
+            "size": 175216,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar",
+            "MD5": "bba044c32b2907059c94b91fe965285e",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar.input",
+            "MD5": "efe373a467cc57497e8832c1b452673e",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$mixinextras-fabric-0.3.6.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar",
+          "type": "File",
+          "artifact": {
+            "size": 432895,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar",
+            "MD5": "0169b0037601d92816072a031711e5ad",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar.input",
+            "MD5": "becf13ac5ad2606a04fa2741d7333825",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$threadly-7.0.jar.input"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar",
+          "type": "File",
+          "artifact": {
+            "size": 31893,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar",
+            "MD5": "6f69b33abd2e3c47d43aabb7d743a1a2",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar.input",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar.input",
+          "type": "File",
+          "artifact": {
+            "size": 92,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar.input",
+            "MD5": "0ba601731816ae8a7a70da657f3f4059",
+            "path": "mods/.connector/temp/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13$toml-3.6.5.jar.input"
           }
         },
         {
