@@ -9,7 +9,7 @@
   "servers": [
     {
       "id": "Oxygen-1.18.2",
-      "name": "Survie II - Oxygen (1.18.2)",
+      "name": "Oxygen - Survie II (Juil. 24 - 1.18.2)",
       "description": "Modpack utilisée pour la survie moddée en 1.18.2",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Survie.png",
       "version": "1.0.0",
@@ -17,7 +17,7 @@
       "minecraftVersion": "1.18.2",
       "discord": {
         "shortId": "Oxygen - Survie II",
-        "largeImageText": "Oxygen",
+        "largeImageText": "Oxygen - Survie II",
         "largeImageKey": "survie"
       },
       "mainServer": false,
@@ -1476,15 +1476,15 @@
     },
     {
       "id": "Waterfall-1.20.1",
-      "name": "Survie III - Waterfall (1.20.1)",
-      "description": "Version de test pour le projet Waterfall (Juil. 25)",
+      "name": "Waterfall - Survie 3 - Test Version (1.20.1)",
+      "description": "Version de test pour le projet Waterfall (ETA Juil. 26)",
       "icon": "https://raw.githubusercontent.com/clementino29/SakuraLauncher/refs/heads/master/docs/srv_icon/Waterfall.png",
-      "version": "1.0.0",
+      "version": "0.0.1",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "Waterfall - Survie III",
-        "largeImageText": "Projet Waterfall",
+        "shortId": "Waterfall - Survie 3 - Test Version",
+        "largeImageText": "Waterfall - Version Test",
         "largeImageKey": "waterfall"
       },
       "mainServer": false,
@@ -1920,6 +1920,16 @@
           }
         },
         {
+          "id": "com.github.alexthe666:alexsmobs:1.22.9@jar",
+          "name": "Alex's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26350793,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/alexsmobs-1.22.9.jar",
+            "MD5": "504050d1f2e2c3019b6f53377ca354c6"
+          }
+        },
+        {
           "id": "dev.shadowsoffire:attributeslib:1.3.7@jar",
           "name": "Apothic Attributes",
           "type": "ForgeMod",
@@ -1937,6 +1947,16 @@
             "size": 580602,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
             "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "earth.terrarium:argonauts:1.0.10@jar",
+          "name": "Argonauts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 644788,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/argonauts-forge-1.20.1-1.0.10.jar",
+            "MD5": "2da19c208680d32af1b5f061af122aa2"
           }
         },
         {
@@ -1970,6 +1990,26 @@
           }
         },
         {
+          "id": "generated.forgemod:c2me:fabric-mc1.20.1-0.2.0+alpha.11.13@jar",
+          "name": "C2me",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1424654,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "d11d3e2566c8ef1aee6fddd52d62932e"
+          }
+        },
+        {
+          "id": "earth.terrarium:cadmus:1.0.8@jar",
+          "name": "Cadmus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 522263,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/cadmus-forge-1.20.1-1.0.8.jar",
+            "MD5": "3cc32fa3170f88bc03f53a8bf5c38170"
+          }
+        },
+        {
           "id": "top.theillusivec4:caelus:3.2.0+1.20.1@jar",
           "name": "Caelus API",
           "type": "ForgeMod",
@@ -1997,6 +2037,16 @@
             "size": 3185379,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
             "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
+          }
+        },
+        {
+          "id": "com.github.alexthe666:citadel:2.6.3@jar",
+          "name": "Citadel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3185275,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/citadel-2.6.3-1.20.1.jar",
+            "MD5": "da80c09b998d829b6d580e5be76dcc7b"
           }
         },
         {
@@ -2094,6 +2144,16 @@
           }
         },
         {
+          "id": "de.keksuccino:drippyloadingscreen:3.1.0@jar",
+          "name": "Drippy Loading Screen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 285003,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/drippyloadingscreen_forge_3.1.0_MC_1.20.1.jar",
+            "MD5": "029b16e576071b67f3de0df7215a1062"
+          }
+        },
+        {
           "id": "net.aurelj:dungeons_arise:2.1.58-1.20.x@jar",
           "name": "When Dungeons Arise",
           "type": "ForgeMod",
@@ -2114,6 +2174,16 @@
           }
         },
         {
+          "id": "dev.corgitaco:enhancedcelestials:1.20.1-5.0.3.1@jar",
+          "name": "Enhanced Celestials",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1624784,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Enhanced-Celestials-forge-1.20.1-5.0.3.1.jar",
+            "MD5": "d83cea0cac58debe63e17f4dd52c3eee"
+          }
+        },
+        {
           "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
           "name": "Forgified Fabric API",
           "type": "ForgeMod",
@@ -2124,13 +2194,13 @@
           }
         },
         {
-          "id": "de.keksuccino:fancymenu:3.8.0@jar",
+          "id": "de.keksuccino:fancymenu:3.8.1@jar",
           "name": "FancyMenu",
           "type": "ForgeMod",
           "artifact": {
-            "size": 4470626,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/fancymenu_forge_3.8.0_MC_1.20.1.jar",
-            "MD5": "f66a301126496f63b20f586cf0503aff"
+            "size": 4472193,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/fancymenu_forge_3.8.1_MC_1.20.1.jar",
+            "MD5": "bf41a4251d431d92b89b6c91f84d5546"
           }
         },
         {
@@ -2144,13 +2214,13 @@
           }
         },
         {
-          "id": "elocindev.geckoanimfix:geckoanimfix:1.0.0@jar",
-          "name": "GeckoLibIrisCompat",
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
+          "name": "GeckoLib 4",
           "type": "ForgeMod",
           "artifact": {
-            "size": 6239,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/GeckoLibOculusCompat-Forge-1.0.1.jar",
-            "MD5": "4dd6b749ec2ca69a208a15091530825b"
+            "size": 1039046,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.3.jar",
+            "MD5": "33b0f8fe0a8d59fcf9d4e222741ecba7"
           }
         },
         {
@@ -2164,13 +2234,13 @@
           }
         },
         {
-          "id": "dev.xkmc.golemdungeons.init:golemdungeons:1.0.3@jar",
+          "id": "dev.xkmc.golemdungeons.init:golemdungeons:1.0.4@jar",
           "name": "Golem Dungeons",
           "type": "ForgeMod",
           "artifact": {
-            "size": 712808,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/golemdungeons-1.0.3.jar",
-            "MD5": "807f72a70c96db05d64b4a4a070386ce"
+            "size": 712941,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/golemdungeons-1.0.4.jar",
+            "MD5": "54c8dcc8f7c3145851ec60b347ce257c"
           }
         },
         {
@@ -2194,13 +2264,13 @@
           }
         },
         {
-          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.4.0.11@jar",
+          "id": "io.redspace.ironsspellbooks:irons_spellbooks:1.20.1-3.15.2@jar",
           "name": "Iron's Spells 'n Spellbooks",
           "type": "ForgeMod",
           "artifact": {
-            "size": 8784756,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/irons_spellbooks-1.20.1-3.4.0.11.jar",
-            "MD5": "772d419fad82558b4c2ed1753c5e07aa"
+            "size": 14222065,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/irons_spellbooks-1.20.1-3.15.2.jar",
+            "MD5": "704ade217390d99b08ea1ef394e2486b"
           }
         },
         {
@@ -2211,6 +2281,16 @@
             "size": 1409642,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.129.jar",
             "MD5": "a5192227a15e0fe0e367828b32c1f472"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.10.3@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7160405,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/journeymap-1.20.1-5.10.3-forge.jar",
+            "MD5": "2181bd6b7161f06726560b9382235611"
           }
         },
         {
@@ -2254,6 +2334,16 @@
           }
         },
         {
+          "id": "slimeknights.mantle:mantle:1.11.97@jar",
+          "name": "Mantle",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1580683,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Mantle-1.20.1-1.11.97.jar",
+            "MD5": "4542868075d6143a5969e646efbef889"
+          }
+        },
+        {
           "id": "de.keksuccino:melody:1.0.2@jar",
           "name": "Melody",
           "type": "ForgeMod",
@@ -2274,13 +2364,13 @@
           }
         },
         {
-          "id": "dev.xkmc.modulargolems.init:modulargolems:2.6.14@jar",
+          "id": "dev.xkmc.modulargolems.init:modulargolems:2.6.16@jar",
           "name": "Modular Golems",
           "type": "ForgeMod",
           "artifact": {
-            "size": 3307813,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/modulargolems-2.6.14.jar",
-            "MD5": "e11cbacbfdfe53ed0a3ca5665679ba19"
+            "size": 3308109,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/modulargolems-2.6.16.jar",
+            "MD5": "2da83b02b5917270eb26d78273cf2c53"
           }
         },
         {
@@ -2348,6 +2438,16 @@
           }
         },
         {
+          "id": "earth.terrarium:prometheus:1.2.5@jar",
+          "name": "Prometheus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 818179,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/prometheus-forge-1.20.1-1.2.5.jar",
+            "MD5": "201329622bd0a4ff293490a489f2e9ba"
+          }
+        },
+        {
           "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
           "name": "Puzzles Lib",
           "type": "ForgeMod",
@@ -2368,6 +2468,16 @@
           }
         },
         {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432753,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+          }
+        },
+        {
           "id": "sereneseasons.forge.core:sereneseasons:9.1.0.2@jar",
           "name": "Serene Seasons",
           "type": "ForgeMod",
@@ -2375,6 +2485,16 @@
             "size": 160887,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/SereneSeasons-forge-1.20.1-9.1.0.2.jar",
             "MD5": "83f15593668f8242dbf0e1517b4dc831"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.10.1@jar",
+          "name": "3d-Skin-Layers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2156619,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/skinlayers3d-forge-1.10.1-mc1.20.1.jar",
+            "MD5": "243c7362c757198ca4809206c66f4999"
           }
         },
         {
@@ -2388,13 +2508,23 @@
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedcore:1.2.117.1347@jar",
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.20.1500@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 983302,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.20.1500.jar",
+            "MD5": "5254c618efeb3f8776cdaf103774de75"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.3.1.1460@jar",
           "name": "Sophisticated Core",
           "type": "ForgeMod",
           "artifact": {
-            "size": 1454962,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.2.117.1347.jar",
-            "MD5": "17b82e13a41dd73782f269812836c9e3"
+            "size": 1411890,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.3.1.1460.jar",
+            "MD5": "a3b6f5e5f69627796d45f65d67253c47"
           }
         },
         {
@@ -2418,6 +2548,16 @@
           }
         },
         {
+          "id": "slimeknights.tconstruct:tconstruct:3.11.2.166@jar",
+          "name": "Tinkers' Construct",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 21572031,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/TConstruct-1.20.1-3.11.2.166.jar",
+            "MD5": "812aad66dfecc0832ea4569cd3b1de5a"
+          }
+        },
+        {
           "id": "net.stardustlabs:terralith:2.4.11@jar",
           "name": "Terralith",
           "type": "ForgeMod",
@@ -2425,6 +2565,16 @@
             "size": 2478785,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Terralith_1.20.4_v2.4.11.jar",
             "MD5": "d05262a405a2c1e17f10eb4d4cf96797"
+          }
+        },
+        {
+          "id": "generated.forgemod:terralith:2.5.4@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3156901,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Terralith_1.20.x_v2.5.4.jar",
+            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
           }
         },
         {
@@ -2442,19 +2592,19 @@
           "name": "Towns and Towers",
           "type": "ForgeMod",
           "artifact": {
-            "size": 2667659,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Towns-and-Towers-1.11-Fabric+Forge.jar",
-            "MD5": "7492a9d4b5033246de09b38a2d0d16d1"
+            "size": 2864275,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Towns-and-Towers-1.12-Fabric+Forge.jar",
+            "MD5": "237a2186d2482856f67c638c06489fb8"
           }
         },
         {
-          "id": "com.gametechbc:traveloptics:6.1.0-1.20.1@jar",
+          "id": "com.gametechbc:traveloptics:6.3.0-1.20.1@jar",
           "name": "T.O Magic 'n Extras",
           "type": "ForgeMod",
           "artifact": {
-            "size": 27502975,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/traveloptics-6.1.0-1.20.1.jar",
-            "MD5": "9e187d6aa97de6cc59db60e7e03a8d22"
+            "size": 27486118,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/traveloptics-6.3.0-1.20.1.jar",
+            "MD5": "e7182fb92a769068a6ea61dc5a487e5b"
           }
         },
         {
@@ -2488,6 +2638,16 @@
           }
         },
         {
+          "id": "net.blay09.mods:waystones:14.1.18@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 518186,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.18.jar",
+            "MD5": "deff2b7c26f63c78000f208495de3e0b"
+          }
+        },
+        {
           "id": "com.alexander:witherreincarnated:1.0.5@jar",
           "name": "Wither Reincarnated",
           "type": "ForgeMod",
@@ -2496,565 +2656,820 @@
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/witherreincarnated-1.20.1-1.0.5.jar",
             "MD5": "f56f91065a1cad1bc53764eb9438b31c"
           }
-        }
-      ]
-    },
-    {
-      "id": "Waterfallneo2-1.21.1",
-      "name": "Waterfallneo2 (Minecraft 1.21.1)",
-      "description": "Waterfallneo2 Running Minecraft 1.21.1 (NeoForge v21.1.219)",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "localhost:25565",
-      "minecraftVersion": "1.21.1",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
-      "mainServer": false,
-      "autoconnect": false,
-      "modules": [
+        },
         {
-          "id": "net.neoforged:neoforge:21.1.219:universal",
-          "name": "Minecraft NeoForge (universal jar)",
-          "type": "ForgeHosted",
-          "classpath": false,
+          "id": "aether-client.toml",
+          "name": "aether-client.toml",
+          "type": "File",
           "artifact": {
-            "size": 3524551,
-            "MD5": "f7a703bed50fb3cf2e6926a38ec85aa4",
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/neoforge/21.1.219/neoforge-21.1.219-universal.jar"
-          },
-          "subModules": [
-            {
-              "id": "21.1.219",
-              "name": "Minecraft NeoForge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 21148,
-                "MD5": "fb75bfae4b8f177f071f742edd0c1299",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/versions/neoforge-21.1.219/neoforge-21.1.219.json"
-              }
-            },
-            {
-              "id": "net.neoforged:neoforge:21.1.219:client",
-              "name": "Minecraft NeoForge (client jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 5670483,
-                "MD5": "a21d486caacfcb3dd66ce869b9bc74f6",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/neoforge/21.1.219/neoforge-21.1.219-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.21.1-20240808.144430:extra",
-              "name": "Minecraft NeoForge (client extra)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 12372293,
-                "MD5": "973b9700852b66bb7b74df75b0113db2",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.21.1-20240808.144430:slim",
-              "name": "Minecraft NeoForge (client slim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 14464635,
-                "MD5": "21a31126d805df21389e0b2ff8cb7411",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.21.1-20240808.144430:srg",
-              "name": "Minecraft NeoForge (client srg)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 18725656,
-                "MD5": "24d790d385dff0146020f1875b969e52",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraft/client/1.21.1-20240808.144430/client-1.21.1-20240808.144430-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.neoforged.fancymodloader:earlydisplay:4.0.42",
-              "name": "Minecraft NeoForge (earlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 261718,
-                "MD5": "6df1105e4016ee9992ca93cd0103e218",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/fancymodloader/earlydisplay/4.0.42/earlydisplay-4.0.42.jar"
-              }
-            },
-            {
-              "id": "net.neoforged.fancymodloader:loader:4.0.42",
-              "name": "Minecraft NeoForge (loader)",
-              "type": "Library",
-              "artifact": {
-                "size": 504899,
-                "MD5": "1722666ba373811ef9b7022c0c4a5a73",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/fancymodloader/loader/4.0.42/loader-4.0.42.jar"
-              }
-            },
-            {
-              "id": "net.neoforged.accesstransformers:at-modlauncher:10.0.1",
-              "name": "Minecraft NeoForge (at-modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 2347,
-                "MD5": "f65434f122b97b1ac8fe56ff54873b5f",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:accesstransformers:10.0.1",
-              "name": "Minecraft NeoForge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 67234,
-                "MD5": "3a01a09a2b0900381dce48e118882849",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:bus:8.0.5",
-              "name": "Minecraft NeoForge (bus)",
-              "type": "Library",
-              "artifact": {
-                "size": 30340,
-                "MD5": "95eee080d9de7cb764adcb8fa2ecf3fb",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/bus/8.0.5/bus-8.0.5.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:coremods:7.0.3",
-              "name": "Minecraft NeoForge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 22659,
-                "MD5": "4527abf6b7116dae1c2178f7beab0ba2",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:11.0.5",
-              "name": "Minecraft NeoForge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 116486,
-                "MD5": "70fa994f64b2620d20dc325bab758d1b",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/modlauncher/11.0.5/modlauncher-11.0.5.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:mergetool:2.0.0:api",
-              "name": "Minecraft NeoForge (mergetool)",
-              "type": "Library",
-              "artifact": {
-                "size": 2550,
-                "MD5": "818b398f65b8dc5af802b721fd1d0b56",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.8.3",
-              "name": "Minecraft NeoForge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 39516,
-                "MD5": "71c9f7b86422f206c0d78c1a0600fd3a",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/electronwill/night-config/toml/3.8.3/toml-3.8.3.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.8.3",
-              "name": "Minecraft NeoForge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 382911,
-                "MD5": "a69db71d5c9c274ff08f175d7c12cb1a",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/electronwill/night-config/core/3.8.3/core-3.8.3.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:JarJarSelector:0.4.1",
-              "name": "Minecraft NeoForge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17168,
-                "MD5": "20d1fe8972655189f69845554ee1a4d1",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:JarJarMetadata:0.4.1",
-              "name": "Minecraft NeoForge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15648,
-                "MD5": "c2f30969dd8b1dc8e3f78c731bd2c5c8",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft NeoForge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.6.3",
-              "name": "Minecraft NeoForge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 18281,
-                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.3.0",
-              "name": "Minecraft NeoForge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 16949,
-                "MD5": "179d3abaf9736dbd8fbd4fa98e1c6ea1",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.15.2+mixin.0.8.7",
-              "name": "Minecraft NeoForge (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1494751,
-                "MD5": "4808c070bf19415a5cb4a0cb5e569b12",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.4",
-              "name": "Minecraft NeoForge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167292,
-                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.commons:commons-lang3:3.14.0",
-              "name": "Minecraft NeoForge (commons-lang3)",
-              "type": "Library",
-              "artifact": {
-                "size": 657952,
-                "MD5": "4e5c3f5e6b0b965ef241d7d72ac8971f",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:2.0.2",
-              "name": "Minecraft NeoForge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 11116,
-                "MD5": "169bd8c006e69d83267466e311d4049d",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/bootstraplauncher/2.0.2/bootstraplauncher-2.0.2.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:securejarhandler:3.0.8",
-              "name": "Minecraft NeoForge (securejarhandler)",
-              "type": "Library",
-              "artifact": {
-                "size": 103765,
-                "MD5": "eb0d5290a2681c2dbeb8088b82e0fbf9",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/cpw/mods/securejarhandler/3.0.8/securejarhandler-3.0.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.8",
-              "name": "Minecraft NeoForge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 73498,
-                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.8",
-              "name": "Minecraft NeoForge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94559,
-                "MD5": "62498ef324bdab15f407d703f7d78d19",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.8",
-              "name": "Minecraft NeoForge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35151,
-                "MD5": "3d63508405f5610fc2ea673ff5471553",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.8",
-              "name": "Minecraft NeoForge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51934,
-                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.8",
-              "name": "Minecraft NeoForge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126113,
-                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
-              }
-            },
-            {
-              "id": "net.neoforged:JarJarFileSystems:0.4.1",
-              "name": "Minecraft NeoForge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 31807,
-                "MD5": "8d75021e5aeb04652b4b9ae3df500b9e",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/neoforged/JarJarFileSystems/0.4.1/JarJarFileSystems-0.4.1.jar"
-              }
-            },
-            {
-              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
-              "name": "Minecraft NeoForge (jopt-simple)",
-              "type": "Library",
-              "artifact": {
-                "size": 78146,
-                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
-              }
-            },
-            {
-              "id": "org.slf4j:slf4j-api:2.0.9",
-              "name": "Minecraft NeoForge (slf4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 64579,
-                "MD5": "45630e54b0f0ac2b3c80462515ad8fda",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.13.1",
-              "name": "Minecraft NeoForge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 326305,
-                "MD5": "dd465ddb2a8dbf69eb6c94e69a0d5f0f",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar"
-              }
-            },
-            {
-              "id": "com.mojang:logging:1.2.7",
-              "name": "Minecraft NeoForge (logging)",
-              "type": "Library",
-              "artifact": {
-                "size": 15343,
-                "MD5": "d01ea99740509a58222a426cc36f5456",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/mojang/logging/1.2.7/logging-1.2.7.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-slf4j2-impl:2.22.1",
-              "name": "Minecraft NeoForge (log4j-slf4j2-impl)",
-              "type": "Library",
-              "artifact": {
-                "size": 27364,
-                "MD5": "82cc94f378ffb853efe084ee9bf4c463",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-core:2.22.1",
-              "name": "Minecraft NeoForge (log4j-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 1900022,
-                "MD5": "b5987ee449d4be4244e2e214683c45af",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar"
-              }
-            },
-            {
-              "id": "org.apache.logging.log4j:log4j-api:2.22.1",
-              "name": "Minecraft NeoForge (log4j-api)",
-              "type": "Library",
-              "artifact": {
-                "size": 335001,
-                "MD5": "27db0eb89ae965179480df00d8d1cf03",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.20.0",
-              "name": "Minecraft NeoForge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 171052,
-                "MD5": "9ece57ca56a1688d1d09fe2c48e7a292",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.20.0",
-              "name": "Minecraft NeoForge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 228481,
-                "MD5": "e45dace437743e6b5e75c81eb455fd3e",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar"
-              }
-            },
-            {
-              "id": "commons-io:commons-io:2.15.1",
-              "name": "Minecraft NeoForge (commons-io)",
-              "type": "Library",
-              "artifact": {
-                "size": 501218,
-                "MD5": "84351f7991a0e6722f00e96a4ccc376f",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:srgutils:0.4.15",
-              "name": "Minecraft NeoForge (srgutils)",
-              "type": "Library",
-              "artifact": {
-                "size": 69393,
-                "MD5": "79812fd073afe1c046bc1ea46ad28095",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:guava:32.1.2-jre",
-              "name": "Minecraft NeoForge (guava)",
-              "type": "Library",
-              "artifact": {
-                "size": 3041591,
-                "MD5": "5fe031b3b35ed56182478811a931d617",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:failureaccess:1.0.1",
-              "name": "Minecraft NeoForge (failureaccess)",
-              "type": "Library",
-              "artifact": {
-                "size": 4617,
-                "MD5": "091883993ef5bfa91da01dcc8fc52236",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar"
-              }
-            },
-            {
-              "id": "com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict-with-guava",
-              "name": "Minecraft NeoForge (listenablefuture)",
-              "type": "Library",
-              "artifact": {
-                "size": 2199,
-                "MD5": "d094c22570d65e132c19cea5d352e381",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar"
-              }
-            },
-            {
-              "id": "com.google.code.findbugs:jsr305:3.0.2",
-              "name": "Minecraft NeoForge (jsr305)",
-              "type": "Library",
-              "artifact": {
-                "size": 19936,
-                "MD5": "dd83accb899363c32b07d7a1b2e4ce40",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
-              }
-            },
-            {
-              "id": "org.checkerframework:checker-qual:3.33.0",
-              "name": "Minecraft NeoForge (checker-qual)",
-              "type": "Library",
-              "artifact": {
-                "size": 223979,
-                "MD5": "fc9418b779d9d57dcd52197006cbdb9b",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar"
-              }
-            },
-            {
-              "id": "com.google.errorprone:error_prone_annotations:2.18.0",
-              "name": "Minecraft NeoForge (error_prone_annotations)",
-              "type": "Library",
-              "artifact": {
-                "size": 16017,
-                "MD5": "64145d0e7fee5a69ed7b84cf402de998",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar"
-              }
-            },
-            {
-              "id": "com.google.j2objc:j2objc-annotations:2.8",
-              "name": "Minecraft NeoForge (j2objc-annotations)",
-              "type": "Library",
-              "artifact": {
-                "size": 9301,
-                "MD5": "c50af69b704dc91050efb98e0dff66d1",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar"
-              }
-            },
-            {
-              "id": "com.google.code.gson:gson:2.10.1",
-              "name": "Minecraft NeoForge (gson)",
-              "type": "Library",
-              "artifact": {
-                "size": 283367,
-                "MD5": "df6097815738cb31fc56391553210843",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar"
-              }
-            },
-            {
-              "id": "org.codehaus.plexus:plexus-utils:3.3.0",
-              "name": "Minecraft NeoForge (plexus-utils)",
-              "type": "Library",
-              "artifact": {
-                "size": 263253,
-                "MD5": "3ae76ff0195ada460d495efe1fb50d17",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar"
-              }
-            },
-            {
-              "id": "com.machinezoo.noexception:noexception:1.7.1",
-              "name": "Minecraft NeoForge (noexception)",
-              "type": "Library",
-              "artifact": {
-                "size": 250861,
-                "MD5": "fcc3e4df4990088c964f687b62f7c448",
-                "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/repo/lib/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar"
-              }
-            }
-          ]
+            "size": 4636,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/aether-client.toml",
+            "MD5": "f1bf4a7779cbf92ac94c6f8f0a36874a",
+            "path": "config/aether-client.toml"
+          }
+        },
+        {
+          "id": "aether-common.toml",
+          "name": "aether-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1351,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/aether-common.toml",
+            "MD5": "9964869c63f4d91348656e3dd9c88712",
+            "path": "config/aether-common.toml"
+          }
+        },
+        {
+          "id": "alexscaves-client.toml",
+          "name": "alexscaves-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1900,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/alexscaves-client.toml",
+            "MD5": "74e71cbc05402bd28f07a68bb7d11687",
+            "path": "config/alexscaves-client.toml"
+          }
+        },
+        {
+          "id": "alexscaves-general.toml",
+          "name": "alexscaves-general.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6084,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/alexscaves-general.toml",
+            "MD5": "8c8e7794b876e01d3facffcea3f2e91b",
+            "path": "config/alexscaves-general.toml"
+          }
+        },
+        {
+          "id": "alexsmobs.toml",
+          "name": "alexsmobs.toml",
+          "type": "File",
+          "artifact": {
+            "size": 36192,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/alexsmobs.toml",
+            "MD5": "6b5567e6a3a903e0102c576899a33226",
+            "path": "config/alexsmobs.toml"
+          }
+        },
+        {
+          "id": "attributeslib.cfg",
+          "name": "attributeslib.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 2686,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/attributeslib.cfg",
+            "MD5": "f8872923e20d465ce30bceec3525710e",
+            "path": "config/attributeslib.cfg"
+          }
+        },
+        {
+          "id": "bosses_of_mass_destruction.json5",
+          "name": "bosses_of_mass_destruction.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1475,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/bosses_of_mass_destruction.json5",
+            "MD5": "f4aab9d5958f9b38a49e925098a8c8a6",
+            "path": "config/bosses_of_mass_destruction.json5"
+          }
+        },
+        {
+          "id": "c2me.toml",
+          "name": "c2me.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6478,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/c2me.toml",
+            "MD5": "e067c1e1de7c815e14fdc78bd3a62dbb",
+            "path": "config/c2me.toml"
+          }
+        },
+        {
+          "id": "cataclysm.toml",
+          "name": "cataclysm.toml",
+          "type": "File",
+          "artifact": {
+            "size": 20644,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/cataclysm.toml",
+            "MD5": "600d2ce1995f17bcf85636f2e1f7b58b",
+            "path": "config/cataclysm.toml"
+          }
+        },
+        {
+          "id": "citadel-common.toml",
+          "name": "citadel-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 648,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/citadel-common.toml",
+            "MD5": "f211eac94129201b25acdeee49218d43",
+            "path": "config/citadel-common.toml"
+          }
+        },
+        {
+          "id": "collective.json5",
+          "name": "collective.json5",
+          "type": "File",
+          "artifact": {
+            "size": 827,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/collective.json5",
+            "MD5": "c1a6c344217a2164ca0db41f9d286d00",
+            "path": "config/collective.json5"
+          }
+        },
+        {
+          "id": "connector.json",
+          "name": "connector.json",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/connector.json",
+            "MD5": "e625d3c4a748b81b7f8521b27f7d2365",
+            "path": "config/connector.json"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4397,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/create-client.toml",
+            "MD5": "d276f313790d54d07df0fbb1916f6350",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "create-common.toml",
+          "name": "create-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/create-common.toml",
+            "MD5": "7503e1571dd136604d3a78582d1a6cb0",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "cumulus_menus-client.toml",
+          "name": "cumulus_menus-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/cumulus_menus-client.toml",
+            "MD5": "7ff85758574440590869a77aabdddf4f",
+            "path": "config/cumulus_menus-client.toml"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 706,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/curios-client.toml",
+            "MD5": "67aaec1814836fed2d3e021c29ef6848",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 161,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/curios-common.toml",
+            "MD5": "4e1978c603823135e91f736983a96649",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "DistantHorizons.toml",
+          "name": "DistantHorizons.toml",
+          "type": "File",
+          "artifact": {
+            "size": 32498,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/DistantHorizons.toml",
+            "MD5": "94eeec168198c47b163ab7847488d848",
+            "path": "config/DistantHorizons.toml"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "cef72a91bd938c70bba588fbd18965ba",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "0.jpg",
+          "name": "0.jpg",
+          "type": "File",
+          "artifact": {
+            "size": 350044,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/0.jpg",
+            "MD5": "6563d4c1476bb5b0575f3425daf97938",
+            "path": "config/fancymenu/assets/0.jpg"
+          }
+        },
+        {
+          "id": "blahaj.gif",
+          "name": "blahaj.gif",
+          "type": "File",
+          "artifact": {
+            "size": 25954396,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/blahaj.gif",
+            "MD5": "4189633cdc4048e05e6bd355d9f8a8e3",
+            "path": "config/fancymenu/assets/blahaj.gif"
+          }
+        },
+        {
+          "id": "craft.png",
+          "name": "craft.png",
+          "type": "File",
+          "artifact": {
+            "size": 87175,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/craft.png",
+            "MD5": "635535a0a2c181ccb5f81f07e962027c",
+            "path": "config/fancymenu/assets/craft.png"
+          }
+        },
+        {
+          "id": "fond.png",
+          "name": "fond.png",
+          "type": "File",
+          "artifact": {
+            "size": 3144909,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/fond.png",
+            "MD5": "f8e813af364d9f6964a3445cbdd5688c",
+            "path": "config/fancymenu/assets/fond.png"
+          }
+        },
+        {
+          "id": "icon.png",
+          "name": "icon.png",
+          "type": "File",
+          "artifact": {
+            "size": 97611,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/icon.png",
+            "MD5": "2879148656f186da594f213f235f2c2f",
+            "path": "config/fancymenu/assets/icon.png"
+          }
+        },
+        {
+          "id": "miku.gif",
+          "name": "miku.gif",
+          "type": "File",
+          "artifact": {
+            "size": 783192,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/miku.gif",
+            "MD5": "b7390c351a3619b3adc9469ff633a537",
+            "path": "config/fancymenu/assets/miku.gif"
+          }
+        },
+        {
+          "id": "oui.png",
+          "name": "oui.png",
+          "type": "File",
+          "artifact": {
+            "size": 18083745,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/oui.png",
+            "MD5": "fc17aaa26a98503daeae9913e43d420c",
+            "path": "config/fancymenu/assets/oui.png"
+          }
+        },
+        {
+          "id": "sakural.png",
+          "name": "sakural.png",
+          "type": "File",
+          "artifact": {
+            "size": 2161,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/sakural.png",
+            "MD5": "5526c7c852f967cd76cec082a82ec918",
+            "path": "config/fancymenu/assets/sakural.png"
+          }
+        },
+        {
+          "id": "sakuramac.icns",
+          "name": "sakuramac.icns",
+          "type": "File",
+          "artifact": {
+            "size": 128913,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/sakuramac.icns",
+            "MD5": "b81513a79a70b4a16feb02b1e0bb78f1",
+            "path": "config/fancymenu/assets/sakuramac.icns"
+          }
+        },
+        {
+          "id": "sakuras.png",
+          "name": "sakuras.png",
+          "type": "File",
+          "artifact": {
+            "size": 1095,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/sakuras.png",
+            "MD5": "445963a252427be1a288a99f0c91b160",
+            "path": "config/fancymenu/assets/sakuras.png"
+          }
+        },
+        {
+          "id": "water.png",
+          "name": "water.png",
+          "type": "File",
+          "artifact": {
+            "size": 68691,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/water.png",
+            "MD5": "e1e25934ed06e526f19ebca2b0d684e7",
+            "path": "config/fancymenu/assets/water.png"
+          }
+        },
+        {
+          "id": "waterfall.png",
+          "name": "waterfall.png",
+          "type": "File",
+          "artifact": {
+            "size": 109607,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/assets/waterfall.png",
+            "MD5": "e090835aac971f7bc47df050efce86cb",
+            "path": "config/fancymenu/assets/waterfall.png"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 206,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "d21a8282644a87e3d574e40b5dcb78d3",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "custom_waterfall.txt",
+          "name": "custom_waterfall.txt",
+          "type": "File",
+          "artifact": {
+            "size": 40086,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/customization/custom_waterfall.txt",
+            "MD5": "013b65f9bb5b3e963acd3cc6016db81b",
+            "path": "config/fancymenu/customization/custom_waterfall.txt"
+          }
+        },
+        {
+          "id": "drippy_loading_overlay_layout.txt",
+          "name": "drippy_loading_overlay_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7102,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/customization/drippy_loading_overlay_layout.txt",
+            "MD5": "3397c10c76808c7daec3291bd9e031ac",
+            "path": "config/fancymenu/customization/drippy_loading_overlay_layout.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "43c6cabd639277b3de9e9d101a08c7e1",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "normalized_scroll_screens.json",
+          "name": "normalized_scroll_screens.json",
+          "type": "File",
+          "artifact": {
+            "size": 58,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/normalized_scroll_screens.json",
+            "MD5": "4a7691744cbcc5c9d1ac4c39f8a5d8e5",
+            "path": "config/fancymenu/normalized_scroll_screens.json"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2278,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "f95050e2d1c3f1fc69a32e9cdb578b5c",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 6218,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "df90c4d23315ff6e63e15541b3031197",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 6220,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 623,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/flywheel-client.toml",
+            "MD5": "969c76ee0b091b9bfecb378609e02466",
+            "path": "config/flywheel-client.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1149,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fml.toml",
+            "MD5": "0ad4d9ce60620ce4b1cfd38f407be96e",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1628,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/forge-client.toml",
+            "MD5": "94d0dcbf248b1ee18bf1266c672327a1",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "gtbcs_spell_lib-common.toml",
+          "name": "gtbcs_spell_lib-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 316,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/gtbcs_spell_lib-common.toml",
+            "MD5": "433ba47d279c35d1163846779acc5f9c",
+            "path": "config/gtbcs_spell_lib-common.toml"
+          }
+        },
+        {
+          "id": "irons_spellbooks-client.toml",
+          "name": "irons_spellbooks-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3447,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/irons_spellbooks-client.toml",
+            "MD5": "c8815e6596bcce714a0b60b0999dbb14",
+            "path": "config/irons_spellbooks-client.toml"
+          }
+        },
+        {
+          "id": "mantle-client.toml",
+          "name": "mantle-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 891,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/mantle-client.toml",
+            "MD5": "ba1bd4e94bb0fbe830c89b0f6551975d",
+            "path": "config/mantle-client.toml"
+          }
+        },
+        {
+          "id": "mowziesmobs-client.toml",
+          "name": "mowziesmobs-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 984,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/mowziesmobs-client.toml",
+            "MD5": "6de2c641fa4932f6d29f9592e91b0d09",
+            "path": "config/mowziesmobs-client.toml"
+          }
+        },
+        {
+          "id": "mowziesmobs-common.toml",
+          "name": "mowziesmobs-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 32787,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/mowziesmobs-common.toml",
+            "MD5": "a1c2bba48396e97f5ce04a426d6339b3",
+            "path": "config/mowziesmobs-common.toml"
+          }
+        },
+        {
+          "id": "mutantmonsters-common.toml",
+          "name": "mutantmonsters-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 957,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/mutantmonsters-common.toml",
+            "MD5": "ce4481a02342d362fd7172ec161ab916",
+            "path": "config/mutantmonsters-common.toml"
+          }
+        },
+        {
+          "id": "mutantmonsters-server.toml",
+          "name": "mutantmonsters-server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 767,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/mutantmonsters-server.toml",
+            "MD5": "0028172044f08e6ae1c376f53a806f94",
+            "path": "config/mutantmonsters-server.toml"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 255,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/oculus.properties",
+            "MD5": "f5f7a159423fba7e7dc940f120ba288d",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "ponder-client.toml",
+          "name": "ponder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 619,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/ponder-client.toml",
+            "MD5": "e923797057f201aaabb470187e768971",
+            "path": "config/ponder-client.toml"
+          }
+        },
+        {
+          "id": "relics.yaml",
+          "name": "relics.yaml",
+          "type": "File",
+          "artifact": {
+            "size": 521,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/relics.yaml",
+            "MD5": "731452ee31a5f7248545d5568a71c554",
+            "path": "config/relics.yaml"
+          }
+        },
+        {
+          "id": "skinlayers.json",
+          "name": "skinlayers.json",
+          "type": "File",
+          "artifact": {
+            "size": 497,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/skinlayers.json",
+            "MD5": "04d6f743e89a6fba20ddef26e3fbef9a",
+            "path": "config/skinlayers.json"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-common.toml",
+          "name": "sophisticatedbackpacks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 122,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/sophisticatedbackpacks-common.toml",
+            "MD5": "2c6eb54ca9cb7722ec68ffc73667b88b",
+            "path": "config/sophisticatedbackpacks-common.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-client.toml",
+          "name": "sophisticatedcore-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 478,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/sophisticatedcore-client.toml",
+            "MD5": "9b192028e54cc9ddfe9b11a23c16fec6",
+            "path": "config/sophisticatedcore-client.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-common.toml",
+          "name": "sophisticatedcore-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3084,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/sophisticatedcore-common.toml",
+            "MD5": "e0c89a51d61d825614335a2450727b51",
+            "path": "config/sophisticatedcore-common.toml"
+          }
+        },
+        {
+          "id": "spartanweaponry-client.toml",
+          "name": "spartanweaponry-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2014,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/spartanweaponry-client.toml",
+            "MD5": "3be8c261cf7d511f4ba162810e53b583",
+            "path": "config/spartanweaponry-client.toml"
+          }
+        },
+        {
+          "id": "spartanweaponry-common-1.toml.bak",
+          "name": "spartanweaponry-common-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 20591,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/spartanweaponry-common-1.toml.bak",
+            "MD5": "9db5c070fdeb5d8fd17b246c9bc947cc",
+            "path": "config/spartanweaponry-common-1.toml.bak"
+          }
+        },
+        {
+          "id": "spartanweaponry-common.toml",
+          "name": "spartanweaponry-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 20591,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/spartanweaponry-common.toml",
+            "MD5": "54cde5242b528c9daa43ffa832c0d8d3",
+            "path": "config/spartanweaponry-common.toml"
+          }
+        },
+        {
+          "id": "tconstruct-client.toml",
+          "name": "tconstruct-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4248,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/tconstruct-client.toml",
+            "MD5": "95bd8a5fccbab903a18c67d610988a31",
+            "path": "config/tconstruct-client.toml"
+          }
+        },
+        {
+          "id": "tconstruct-common.toml",
+          "name": "tconstruct-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7851,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/tconstruct-common.toml",
+            "MD5": "95d1e64db035b351177f3958a144b918",
+            "path": "config/tconstruct-common.toml"
+          }
+        },
+        {
+          "id": "transition.json",
+          "name": "transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 62,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/transition.json",
+            "MD5": "939cbb1d75f242d47e2aa1a9d536a3e7",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "treeharvester.json5",
+          "name": "treeharvester.json5",
+          "type": "File",
+          "artifact": {
+            "size": 2687,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/treeharvester.json5",
+            "MD5": "346ccdaab321d87f39f746df798a34e7",
+            "path": "config/treeharvester.json5"
+          }
+        },
+        {
+          "id": "trender.json",
+          "name": "trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/trender.json",
+            "MD5": "57d19d218711f08f8d7ce8c69f21d59f",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "twilightforest-client.toml",
+          "name": "twilightforest-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1565,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/twilightforest-client.toml",
+            "MD5": "a979447ba0277e1c05fbb684cc812669",
+            "path": "config/twilightforest-client.toml"
+          }
+        },
+        {
+          "id": "twilightforest-common.toml",
+          "name": "twilightforest-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 7758,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/twilightforest-common.toml",
+            "MD5": "1d2554a6c1a11ecf1bc56cbbc015c266",
+            "path": "config/twilightforest-common.toml"
+          }
+        },
+        {
+          "id": "waystones-common.toml",
+          "name": "waystones-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6956,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/waystones-common.toml",
+            "MD5": "f63942330c8c403974a68d64defaaa15",
+            "path": "config/waystones-common.toml"
+          }
+        },
+        {
+          "id": "Faithful 32x - 1.20.1.zip",
+          "name": "Faithful 32x - 1.20.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 10955093,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/resourcepacks/Faithful%2032x%20-%201.20.1.zip",
+            "MD5": "190a27aba1ab28ca26caaee8f48656ac",
+            "path": "resourcepacks/Faithful 32x - 1.20.1.zip"
+          }
+        },
+        {
+          "id": "Faithful 64x - Beta 9.zip",
+          "name": "Faithful 64x - Beta 9.zip",
+          "type": "File",
+          "artifact": {
+            "size": 9608212,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/resourcepacks/Faithful%2064x%20-%20Beta%209.zip",
+            "MD5": "7f80ce636292401377da62ebf2b59ac4",
+            "path": "resourcepacks/Faithful 64x - Beta 9.zip"
+          }
         }
       ]
     }
