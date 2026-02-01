@@ -1990,16 +1990,6 @@
           }
         },
         {
-          "id": "generated.forgemod:c2me:fabric-mc1.20.1-0.2.0+alpha.11.13@jar",
-          "name": "C2me",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1424654,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar",
-            "MD5": "d11d3e2566c8ef1aee6fddd52d62932e"
-          }
-        },
-        {
           "id": "earth.terrarium:cadmus:1.0.8@jar",
           "name": "Cadmus",
           "type": "ForgeMod",
@@ -2057,16 +2047,6 @@
             "size": 665169,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/collective-1.20.1-8.13.jar",
             "MD5": "abe112af460bf8befe26605a5e4c4248"
-          }
-        },
-        {
-          "id": "generated.forgemod:connector:1.0.0-beta.47+1.20.1@jar",
-          "name": "Connector",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5043863,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Connector-1.0.0-beta.47+1.20.1.jar",
-            "MD5": "3a52384e15ed1ccb779a328e9aa3028c"
           }
         },
         {
@@ -2171,16 +2151,6 @@
             "size": 1624784,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Enhanced-Celestials-forge-1.20.1-5.0.3.1.jar",
             "MD5": "d83cea0cac58debe63e17f4dd52c3eee"
-          }
-        },
-        {
-          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
-          "name": "Forgified Fabric API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3065813,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/fabric-api-0.92.6+1.11.14+1.20.1.jar",
-            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
           }
         },
         {
@@ -2858,6 +2828,50 @@
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/config/fancymenu/user_variables.db",
             "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
             "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "blahaj-fabric-1.20.0-0.3.2.jar",
+          "name": "blahaj-fabric-1.20.0-0.3.2.jar",
+          "type": "File",
+          "artifact": {
+            "size": 36285,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/blahaj-fabric-1.20.0-0.3.2.jar",
+            "MD5": "5b99c36da0fa6097294333da7902016a",
+            "path": "mods/blahaj-fabric-1.20.0-0.3.2.jar"
+          }
+        },
+        {
+          "id": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "name": "c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar",
+          "type": "File",
+          "artifact": {
+            "size": 1424654,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar",
+            "MD5": "d11d3e2566c8ef1aee6fddd52d62932e",
+            "path": "mods/c2me-fabric-mc1.20.1-0.2.0+alpha.11.13.jar"
+          }
+        },
+        {
+          "id": "Connector-1.0.0-beta.47+1.20.1.jar",
+          "name": "Connector-1.0.0-beta.47+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 5043863,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/Connector-1.0.0-beta.47+1.20.1.jar",
+            "MD5": "3a52384e15ed1ccb779a328e9aa3028c",
+            "path": "mods/Connector-1.0.0-beta.47+1.20.1.jar"
+          }
+        },
+        {
+          "id": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
+          "name": "fabric-api-0.92.6+1.11.14+1.20.1.jar",
+          "type": "File",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/files/mods/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b",
+            "path": "mods/fabric-api-0.92.6+1.11.14+1.20.1.jar"
           }
         },
         {
