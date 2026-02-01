@@ -2030,16 +2030,6 @@
           }
         },
         {
-          "id": "com.github.alexthe666:citadel:2.6.2@jar",
-          "name": "Citadel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3185379,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/citadel-2.6.2-1.20.1.jar",
-            "MD5": "f027b4f6862b99a1e0516353fb3ef0fc"
-          }
-        },
-        {
           "id": "com.github.alexthe666:citadel:2.6.3@jar",
           "name": "Citadel",
           "type": "ForgeMod",
@@ -2201,16 +2191,6 @@
             "size": 4472193,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/fancymenu_forge_3.8.1_MC_1.20.1.jar",
             "MD5": "bf41a4251d431d92b89b6c91f84d5546"
-          }
-        },
-        {
-          "id": "software.bernie.example:geckolib:4.8.2@jar",
-          "name": "GeckoLib 4",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1038979,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.2.jar",
-            "MD5": "d1ff73da16b6fc163d6c5ed3d9734dde"
           }
         },
         {
@@ -2498,16 +2478,6 @@
           }
         },
         {
-          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.17.1481@jar",
-          "name": "Sophisticated Backpacks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 983053,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.17.1481.jar",
-            "MD5": "33159e4641c01393e3884e0cad5ab6d5"
-          }
-        },
-        {
           "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.20.1500@jar",
           "name": "Sophisticated Backpacks",
           "type": "ForgeMod",
@@ -2555,16 +2525,6 @@
             "size": 21572031,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/TConstruct-1.20.1-3.11.2.166.jar",
             "MD5": "812aad66dfecc0832ea4569cd3b1de5a"
-          }
-        },
-        {
-          "id": "net.stardustlabs:terralith:2.4.11@jar",
-          "name": "Terralith",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2478785,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/Terralith_1.20.4_v2.4.11.jar",
-            "MD5": "d05262a405a2c1e17f10eb4d4cf96797"
           }
         },
         {
@@ -2625,16 +2585,6 @@
             "size": 23332091,
             "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/twilightforest-1.20.1-4.3.2508-universal.jar",
             "MD5": "0e1ca36ec2ca7e35059dea1600aa31ee"
-          }
-        },
-        {
-          "id": "net.blay09.mods:waystones:14.1.17@jar",
-          "name": "Waystones",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 518286,
-            "url": "https://raw.githubusercontent.com/clementino29/skra-distribution/refs/heads/main/servers/Waterfall-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.17.jar",
-            "MD5": "c0991381d238b6e1ba9526132b8a9a7c"
           }
         },
         {
